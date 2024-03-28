@@ -31,7 +31,8 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=flat&logo=python&logoColor=darkgreen)
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
-![Json](https://img.shields.io/badge/json-5E5C5C?style=flat&logo=json&logoColor=white)
+![Json](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)
+![JWT](https://img.shields.io/badge/JSON%20Web%20Tokens-000000.svg?style=for-the-badge&logo=JSON-Web-Tokens&logoColor=white)
 ![Html](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![Css](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=flat&logo=GNU%20Bash&logoColor=white)
@@ -59,6 +60,21 @@
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F.svg?style=for-the-badge&logo=Spring-Security&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
 ![WireShark](https://img.shields.io/badge/Wireshark-1679A7.svg?style=for-the-badge&logo=Wireshark&logoColor=white)
+![Ant](https://img.shields.io/badge/Apache%20Ant-A81C7D.svg?style=for-the-badge&logo=Apache-Ant&logoColor=white)
+![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75.svg?style=for-the-badge&logo=Apache-Tomcat&logoColor=black)
+![Drupal](https://img.shields.io/badge/Drupal-0678BE.svg?style=for-the-badge&logo=Drupal&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
+![Google Collab](https://img.shields.io/badge/Google%20Colab-F9AB00.svg?style=for-the-badge&logo=Google-Colab&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800.svg?style=for-the-badge&logo=Grafana&logoColor=white)
+![JFrog](https://img.shields.io/badge/JFrog-40BE46.svg?style=for-the-badge&logo=JFrog&logoColor=white)
+![Mailchimp](https://img.shields.io/badge/MailChimp-FFE01B.svg?style=for-the-badge&logo=MailChimp&logoColor=black)
+![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4.svg?style=for-the-badge&logo=Microsoft-Azure&logoColor=white)
+![OpenJDK](https://img.shields.io/badge/OpenJDK-000000.svg?style=for-the-badge&logo=OpenJDK&logoColor=white)
+![Overleaf](https://img.shields.io/badge/Overleaf-47A141.svg?style=for-the-badge&logo=Overleaf&logoColor=white)
+![Powershell](https://img.shields.io/badge/PowerShell-5391FE.svg?style=for-the-badge&logo=PowerShell&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikitlearn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD.svg?style=for-the-badge&logo=SonarQube&logoColor=white)
+![SourceTree](https://img.shields.io/badge/Sourcetree-0052CC.svg?style=for-the-badge&logo=Sourcetree&logoColor=white)
 
 ```dart
 // tools_I_use
@@ -80,6 +96,7 @@ class About extends Me {
 - <img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/message.gif?raw=true" width="25" />&nbsp;&nbsp; Ask me about **Software Development, System Design, Scalability, Movies, or anything**. <br>
 - <img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/letterbox.gif?raw=true" width="25" /> &nbsp; Find me on LinkedIn: **[Puneet](https://www.linkedin.com/in/puneet-singhania)**<br>
 - &nbsp;&nbsp;<img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/lightning.gif?raw=true" width="12" />&nbsp;&nbsp;&nbsp;&nbsp;Keep Learning.<br>
+- &nbsp;&nbsp; [Motorola](https://img.shields.io/badge/Motorola-E1140A.svg?style=for-the-badge&logo=Motorola&logoColor=white) [Jio](https://img.shields.io/badge/Reliance%20Industries%20Limited-D1AB66.svg?style=for-the-badge&logo=Reliance-Industries-Limited&logoColor=white) <br>
 
 <div align="center" >
 <a  href="https://github.com/puneetsinghania">
