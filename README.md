@@ -96,7 +96,7 @@ class About extends Me {
 - <img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/message.gif?raw=true" width="25" />&nbsp;&nbsp; Ask me about **Software Development, System Design, Scalability, Movies, or anything**. <br>
 - <img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/letterbox.gif?raw=true" width="25" /> &nbsp; Find me on LinkedIn: **[Puneet](https://www.linkedin.com/in/puneet-singhania)**<br>
 - &nbsp;&nbsp;<img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/lightning.gif?raw=true" width="12" />&nbsp;&nbsp;&nbsp;&nbsp;Keep Learning.<br>
-- &nbsp;&nbsp; ![Motorola](https://img.shields.io/badge/Motorola-E1140A.svg?style=for-the-badge&logo=Motorola&logoColor=white) ![Jio](https://img.shields.io/badge/Reliance%20Industries%20Limited-D1AB66.svg?style=for-the-badge&logo=Reliance-Industries-Limited&logoColor=white) <br>
+- &nbsp;&nbsp; ![Manh](https://img.shields.io/badge/Manh-blue.svg?style=for-the-badge&logo=&logoColor) ![Motorola](https://img.shields.io/badge/Motorola-E1140A.svg?style=for-the-badge&logo=Motorola&logoColor=white) ![Jio](https://img.shields.io/badge/Reliance%20Industries%20Limited-D1AB66.svg?style=for-the-badge&logo=Reliance-Industries-Limited&logoColor=white) <br>
 
 <div align="center" >
 <a  href="https://github.com/puneetsinghania">
