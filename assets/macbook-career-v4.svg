@@ -1,0 +1,72 @@
+<svg width="1060" height="430" viewBox="0 0 1060 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Puneet Singhania career progression</title>
+  <desc id="desc">MacBook-style career progression with contained glowing company panels.</desc>
+  <defs>
+    <linearGradient id="outer" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dff8ff"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050b18"/><stop offset="0.58" stop-color="#071a2e"/><stop offset="1" stop-color="#062f45"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.18"/><stop offset="0.55" stop-color="#38bdf8" stop-opacity="0.34"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0.18"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60a5fa"/><stop offset="0.25" stop-color="#22d3ee"/><stop offset="0.55" stop-color="#a78bfa"/><stop offset="0.78" stop-color="#fb923c"/><stop offset="1" stop-color="#f43f5e"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="165%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#020617" flood-opacity="0.42"/></filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .title{font:900 34px Arial, Helvetica, sans-serif;fill:#f8fafc}.sub{font:700 13px Arial, Helvetica, sans-serif;fill:#bae6fd}.kicker{font:800 11px Arial, Helvetica, sans-serif;letter-spacing:1.6px;fill:#67e8f9}.company{font:900 18px Arial, Helvetica, sans-serif;fill:#f8fafc}.role{font:800 12px Arial, Helvetica, sans-serif;fill:#cbd5e1}.year{font:900 10px Arial, Helvetica, sans-serif;letter-spacing:1.2px;fill:#7dd3fc}.xp{font:900 9px Arial, Helvetica, sans-serif;letter-spacing:1px;fill:#08111f}.tile{transition:transform .25s ease}.tile:hover{transform:translateY(-6px)}@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}.pulse{animation:pulse 2.5s ease-in-out infinite}.pulse2{animation:pulse 2.5s ease-in-out .55s infinite}.pulse3{animation:pulse 2.5s ease-in-out 1s infinite}
+    </style>
+  </defs>
+  <rect width="1060" height="430" rx="32" fill="url(#outer)"/>
+  <path d="M0 328 C158 266 304 332 466 272 C634 210 792 306 1060 224 L1060 430 L0 430 Z" fill="url(#water)"/>
+  <g filter="url(#shadow)">
+    <rect x="52" y="48" width="956" height="330" rx="28" fill="#020617"/>
+    <rect x="76" y="76" width="908" height="254" rx="22" fill="url(#screen)" stroke="#38bdf8" stroke-opacity="0.36"/>
+    <circle cx="530" cy="62" r="4" fill="#bae6fd" opacity="0.75"/>
+    <rect x="378" y="388" width="304" height="16" rx="8" fill="#0f172a" opacity="0.34"/>
+  </g>
+  <g transform="translate(104 108)">
+    <text class="kicker" x="0" y="0">CAREER PROGRESSION</text>
+    <text class="title" x="0" y="42">Puneet's Engineering Path</text>
+    <text class="sub" x="0" y="68">Enterprise platforms -> communications -> consumer scale -> commerce -> cloud infrastructure</text>
+  </g>
+  <path d="M148 286 C260 236 352 254 466 194 C596 126 710 218 888 144" fill="none" stroke="url(#line)" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
+  <path d="M148 286 C260 236 352 254 466 194 C596 126 710 218 888 144" fill="none" stroke="#e0f2fe" stroke-width="2" stroke-linecap="round" opacity="0.34" stroke-dasharray="8 16"/>
+  <g class="tile" transform="translate(94 226)">
+    <rect width="176" height="112" rx="18" fill="#0f172a" stroke="#60a5fa" stroke-opacity="0.82"/>
+    <circle class="pulse" cx="32" cy="28" r="13" fill="#60a5fa" filter="url(#glow)"/>
+    <text class="year" x="58" y="30">2015 - 2019</text>
+    <text class="company" x="20" y="62">Manhattan</text>
+    <text class="company" x="20" y="84">Associates</text>
+    <text class="role" x="20" y="104">Associate SWE -> SWE</text>
+  </g>
+  <g class="tile" transform="translate(276 194)">
+    <rect width="166" height="112" rx="18" fill="#151923" stroke="#ef4444" stroke-opacity="0.82"/>
+    <circle class="pulse2" cx="32" cy="28" r="13" fill="#ef4444" filter="url(#glow)"/>
+    <text class="year" x="58" y="30">2019</text>
+    <text class="company" x="20" y="66">Motorola</text>
+    <text class="company" x="20" y="88">Solutions</text>
+    <text class="role" x="20" y="106">Software Engineer</text>
+  </g>
+  <g class="tile" transform="translate(462 142)">
+    <rect width="168" height="112" rx="18" fill="#0b1f3a" stroke="#3b82f6" stroke-opacity="0.86"/>
+    <circle class="pulse3" cx="32" cy="28" r="13" fill="#3b82f6" filter="url(#glow)"/>
+    <text class="year" x="58" y="30">2020 - 2022</text>
+    <text class="company" x="20" y="68">Jio Platforms</text>
+    <text class="role" x="20" y="96">Software Engineer III</text>
+  </g>
+  <g class="tile" transform="translate(650 186)">
+    <rect width="158" height="112" rx="18" fill="#1e1b4b" stroke="#a855f7" stroke-opacity="0.86"/>
+    <circle class="pulse2" cx="32" cy="28" r="13" fill="#a855f7" filter="url(#glow)"/>
+    <text class="year" x="58" y="30">2024 - 2025</text>
+    <text class="company" x="20" y="70">Wayfair</text>
+    <text class="role" x="20" y="98">Software Engineer</text>
+  </g>
+  <g class="tile" transform="translate(820 96)">
+    <rect width="164" height="132" rx="20" fill="#240b12" stroke="#fb7185" stroke-opacity="0.92"/>
+    <circle class="pulse" cx="32" cy="30" r="14" fill="#ef4444" filter="url(#glow)"/>
+    <text class="year" x="58" y="32">2025 - PRESENT</text>
+    <text class="company" x="20" y="70">Oracle Cloud</text>
+    <text class="company" x="20" y="92">Infrastructure</text>
+    <text class="role" x="20" y="118">Software Engineer III</text>
+  </g>
+  <g transform="translate(104 352)">
+    <rect width="280" height="24" rx="12" fill="#e0f2fe" opacity="0.92"/>
+    <text class="xp" x="18" y="16">NO BROKEN LOGOS - CLEAN SVG ONLY</text>
+  </g>
+</svg>
