@@ -10,7 +10,7 @@
 <summary><b>Career Progression</b></summary>
 <br />
 
-<img width="100%" src="./assets/macbook-career-v3.svg" alt="Clean MacBook-style career progression from Manhattan Associates to Oracle Cloud Infrastructure" />
+<img width="100%" src="./assets/macbook-career-v4.svg" alt="Clean MacBook-style career progression from Manhattan Associates to Oracle Cloud Infrastructure" />
 
 </details>
 
@@ -18,7 +18,7 @@
 <summary><b>Engineering Dashboard</b></summary>
 <br />
 
-<img width="100%" src="./assets/macbook-dashboard-v2.svg" alt="MacBook-style engineering dashboard for backend systems, cloud infrastructure, data, and reliability" />
+<img width="100%" src="./assets/macbook-dashboard-v3.svg" alt="MacBook-style engineering dashboard for backend systems, cloud infrastructure, data, and reliability" />
 
 </details>
 
