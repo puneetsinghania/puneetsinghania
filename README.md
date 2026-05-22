@@ -2,27 +2,31 @@
   <img width="100%" src="./assets/cinematic-hero.svg" alt="Puneet Singhania cinematic engineering profile" />
 </a>
 
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2300&pause=600&color=0EA5E9&center=true&vCenter=true&width=1000&lines=Puneet+Singhania+%7C+Software+Engineer+III+at+Oracle+Cloud+Infrastructure;Backend+systems+%7C+Cloud+infrastructure+%7C+Distributed+workflows;Java+%7C+Spring+Boot+%7C+Kafka+%7C+Redis+%7C+Kubernetes" alt="Moving intro marquee" /></a>
+</p>
+
 <details open>
-<summary><b>Career Progression</b></summary>
+<summary><b>Career Growth Game</b></summary>
 <br />
 
-<img width="100%" src="./assets/career-board.svg" alt="Branded company card career progression from Manhattan Associates to Oracle Cloud Infrastructure" />
+<img width="100%" src="./assets/career-game.svg" alt="Career growth game board with company logos" />
 
 </details>
 
 <details open>
-<summary><b>Systems Blueprint</b></summary>
+<summary><b>Systems Tablet</b></summary>
 <br />
 
-<img width="100%" src="./assets/systems-theater.svg" alt="Premium systems blueprint" />
+<img width="100%" src="./assets/ocean-tablet-systems.svg" alt="Ocean tablet systems map" />
 
 </details>
 
 <details open>
-<summary><b>Engineering Control Deck</b></summary>
+<summary><b>Engineering Tablet</b></summary>
 <br />
 
-<img width="100%" src="./assets/control-deck.svg" alt="Engineering control deck" />
+<img width="100%" src="./assets/ocean-tablet-deck.svg" alt="Ocean tablet engineering deck" />
 
 </details>
 
