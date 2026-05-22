@@ -1,0 +1,55 @@
+<svg width="1060" height="410" viewBox="0 0 1060 410" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering dashboard</title>
+  <desc id="desc">A MacBook-style dashboard with contained panels for Puneet's engineering strengths.</desc>
+  <defs>
+    <linearGradient id="outer" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e0f7ff"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06111f"/><stop offset="0.62" stop-color="#071a2e"/><stop offset="1" stop-color="#042f3f"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.52" stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="155%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#0f172a" flood-opacity="0.28"/></filter>
+    <style>
+      .title{font:900 34px Arial, Helvetica, sans-serif;fill:#f8fafc}.sub{font:700 13px Arial, Helvetica, sans-serif;fill:#bae6fd}.kicker{font:800 11px Arial, Helvetica, sans-serif;letter-spacing:1.6px;fill:#67e8f9}.metric{font:900 20px Arial, Helvetica, sans-serif;fill:#f8fafc}.small{font:700 12px Arial, Helvetica, sans-serif;fill:#cbd5e1}.tag{font:900 10px Arial, Helvetica, sans-serif;letter-spacing:1px;fill:#08111f}.card{transition:transform .25s ease}.card:hover{transform:translateY(-5px)}@keyframes scan{0%{transform:translateX(-260px);opacity:.08}45%{opacity:.55}100%{transform:translateX(760px);opacity:.08}}.scanner{animation:scan 5s linear infinite}
+    </style>
+  </defs>
+  <rect width="1060" height="410" rx="34" fill="url(#outer)"/>
+  <path d="M0 298 C180 234 294 328 470 258 C636 192 776 288 1060 208 L1060 410 L0 410 Z" fill="#38bdf8" opacity="0.14"/>
+  <g filter="url(#shadow)">
+    <rect x="50" y="44" width="960" height="314" rx="30" fill="#020617"/>
+    <rect x="76" y="72" width="908" height="238" rx="22" fill="url(#screen)" stroke="#38bdf8" stroke-opacity="0.35"/>
+    <circle cx="530" cy="58" r="4" fill="#dbeafe" opacity="0.76"/>
+  </g>
+  <g transform="translate(108 105)">
+    <text class="kicker" x="0" y="0">ENGINEERING DASHBOARD</text>
+    <text class="title" x="0" y="42">Systems I Build Around</text>
+    <text class="sub" x="0" y="68">Backend services, cloud runtime, distributed messaging, data performance, reliability</text>
+  </g>
+  <rect class="scanner" x="154" y="98" width="192" height="188" rx="94" fill="#22d3ee" opacity="0.1"/>
+  <g class="card" transform="translate(106 190)">
+    <rect width="194" height="116" rx="18" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.7"/>
+    <text class="kicker" x="20" y="28">CORE SERVICES</text>
+    <text class="metric" x="20" y="60">Java + Spring</text>
+    <text class="small" x="20" y="82">Backend APIs</text>
+    <rect x="20" y="92" width="120" height="18" rx="9" fill="#67e8f9"/><text class="tag" x="42" y="105">SERVICE XP</text>
+  </g>
+  <g class="card" transform="translate(324 190)">
+    <rect width="194" height="116" rx="18" fill="#111827" stroke="#60a5fa" stroke-opacity="0.72"/>
+    <text class="kicker" x="20" y="28">DISTRIBUTED</text>
+    <text class="metric" x="20" y="60">Kafka</text>
+    <text class="small" x="20" y="82">Messaging + workflows</text>
+    <rect x="20" y="92" width="126" height="18" rx="9" fill="#93c5fd"/><text class="tag" x="43" y="105">EVENT FLOW</text>
+  </g>
+  <g class="card" transform="translate(542 190)">
+    <rect width="194" height="116" rx="18" fill="#0b1f3a" stroke="#34d399" stroke-opacity="0.72"/>
+    <text class="kicker" x="20" y="28">CLOUD RUNTIME</text>
+    <text class="metric" x="20" y="60">OCI + K8s</text>
+    <text class="small" x="20" y="82">Containers + scale</text>
+    <rect x="20" y="92" width="118" height="18" rx="9" fill="#5eead4"/><text class="tag" x="45" y="105">CLOUD OPS</text>
+  </g>
+  <g class="card" transform="translate(760 190)">
+    <rect width="194" height="116" rx="18" fill="#1e1b4b" stroke="#a78bfa" stroke-opacity="0.72"/>
+    <text class="kicker" x="20" y="28">DATA PLANE</text>
+    <text class="metric" x="20" y="60">SQL + Redis</text>
+    <text class="small" x="20" y="82">Performance systems</text>
+    <rect x="20" y="92" width="124" height="18" rx="9" fill="#c4b5fd"/><text class="tag" x="44" y="105">LOW LATENCY</text>
+  </g>
+  <path d="M106 334 L954 334" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity="0.62"/>
+</svg>
