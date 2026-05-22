@@ -1,10 +1,6 @@
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:020617,28:172554,64:0F766E,100:22C55E&text=Puneet%20Singhania&fontColor=FFFFFF&fontSize=60&fontAlignY=34&animation=fadeIn&desc=Backend%20Systems%20%7C%20Cloud%20Infrastructure%20%7C%20Distributed%20Workflows&descAlignY=57&descSize=18" alt="Puneet Singhania" />
-</p>
-
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=24&duration=2200&pause=500&color=38BDF8&center=true&vCenter=true&width=1000&lines=Software+Engineer+III+%40+Oracle+Cloud+Infrastructure;Backend+systems+that+stay+calm+under+pressure;Cloud+infrastructure+%7C+workflow+orchestration+%7C+platform+engineering;Java+%7C+Spring+Boot+%7C+Kafka+%7C+Redis+%7C+Kubernetes" alt="Typing animation" /></a>
-</p>
+<a href="https://www.linkedin.com/in/puneet-singhania">
+  <img width="100%" src="./assets/cinematic-hero.svg" alt="Puneet Singhania cinematic engineering profile" />
+</a>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/puneet-singhania"><img src="https://img.shields.io/badge/LinkedIn-Puneet%20Singhania-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -12,38 +8,32 @@
   <img src="https://img.shields.io/badge/San%20Francisco%20Bay%20Area-020617?style=for-the-badge&logo=googlemaps&logoColor=white" alt="San Francisco Bay Area" />
 </p>
 
-<a href="https://www.linkedin.com/in/puneet-singhania">
-  <img width="100%" src="./assets/intro-card.svg" alt="Animated backend and platform engineering mission control" />
-</a>
-
-<br />
-
 <details open>
-<summary><b>Open career trajectory</b></summary>
+<summary><b>Career Scene</b></summary>
 <br />
 
-<img width="100%" src="./assets/career-progression.svg" alt="Executive career trajectory from Manhattan Associates to Oracle Cloud Infrastructure" />
+<img width="100%" src="./assets/career-theater.svg" alt="Cinematic career progression from Manhattan Associates to Oracle Cloud Infrastructure" />
 
 </details>
 
 <details open>
-<summary><b>Open architecture map</b></summary>
+<summary><b>Systems Scene</b></summary>
 <br />
 
-<img width="100%" src="./assets/engineering-map.svg" alt="Animated architecture map for backend, workflow, cloud runtime, data plane, and observability" />
+<img width="100%" src="./assets/systems-theater.svg" alt="Cinematic systems architecture scene" />
 
 </details>
 
 <details open>
-<summary><b>Open profile console</b></summary>
+<summary><b>Control Deck</b></summary>
 <br />
 
-<img width="100%" src="./assets/interaction-console.svg" alt="Animated interactive profile console" />
+<img width="100%" src="./assets/control-deck.svg" alt="Interactive profile control deck" />
 
 </details>
 
 <details open>
-<summary><b>Open technology matrix</b></summary>
+<summary><b>Technology Matrix</b></summary>
 <br />
 
 <p align="center">
@@ -64,7 +54,7 @@
 </details>
 
 <details>
-<summary><b>Open principles console</b></summary>
+<summary><b>Engineering Principles</b></summary>
 <br />
 
 <img width="100%" src="./assets/principles-panel.svg" alt="Animated engineering principles console" />
@@ -72,7 +62,7 @@
 </details>
 
 <details>
-<summary><b>Open education and focus areas</b></summary>
+<summary><b>Education and Focus Areas</b></summary>
 <br />
 
 <table>
@@ -99,8 +89,4 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/puneet-singhania"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
   <a href="mailto:puneetsinghania2002@gmail.com"><img src="https://img.shields.io/badge/Start%20a%20conversation-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
-
-<p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:14B8A6,55:2563EB,100:020617" alt="Footer" />
 </p>
