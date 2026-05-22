@@ -1,0 +1,83 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="118" y1="216" x2="1080" y2="216">
+      <stop stop-color="#64748B"/>
+      <stop offset="0.25" stop-color="#38BDF8"/>
+      <stop offset="0.55" stop-color="#14B8A6"/>
+      <stop offset="0.78" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <style>
+      .headline { font: 900 34px Inter, Segoe UI, Arial, sans-serif; fill: #F8FAFC; letter-spacing: 0; }
+      .sub { font: 700 16px Inter, Segoe UI, Arial, sans-serif; fill: #94A3B8; letter-spacing: 0; }
+      .company { font: 800 18px Inter, Segoe UI, Arial, sans-serif; fill: #F8FAFC; letter-spacing: 0; }
+      .role { font: 700 13px Inter, Segoe UI, Arial, sans-serif; fill: #BAE6FD; letter-spacing: 0; }
+      .year { font: 900 15px Inter, Segoe UI, Arial, sans-serif; fill: #0F172A; letter-spacing: 0; }
+      .stage { font: 700 12px Inter, Segoe UI, Arial, sans-serif; fill: #CBD5E1; letter-spacing: 0; }
+      @keyframes dash { to { stroke-dashoffset: -80; } }
+      .dash { stroke-dasharray: 10 14; animation: dash 4s linear infinite; }
+    </style>
+  </defs>
+  <rect width="1200" height="430" rx="32" fill="url(#bg)"/>
+  <circle cx="110" cy="82" r="120" fill="#38BDF8" opacity="0.10" filter="url(#soft)"/>
+  <circle cx="1040" cy="348" r="150" fill="#14B8A6" opacity="0.09" filter="url(#soft)"/>
+
+  <text class="headline" x="60" y="70">Career progression</text>
+  <text class="sub" x="60" y="100">A steady path from enterprise commerce platforms to cloud infrastructure systems</text>
+
+  <path class="dash" d="M118 216H1080" stroke="url(#line)" stroke-width="8" stroke-linecap="round"/>
+
+  <g transform="translate(80 148)">
+    <rect width="190" height="148" rx="22" fill="#0F172A" stroke="#334155"/>
+    <circle cx="54" cy="54" r="30" fill="#334155"/>
+    <text class="year" x="36" y="60" fill="#F8FAFC">2015</text>
+    <text class="company" x="24" y="104">Manhattan</text>
+    <text class="company" x="24" y="128">Associates</text>
+    <text class="role" x="24" y="148">Associate SWE -> SWE</text>
+  </g>
+
+  <g transform="translate(300 126)">
+    <rect width="190" height="170" rx="22" fill="#082F49" stroke="#38BDF8"/>
+    <circle cx="54" cy="54" r="30" fill="#38BDF8"/>
+    <text class="year" x="34" y="60">2019</text>
+    <text class="company" x="24" y="108">Motorola</text>
+    <text class="company" x="24" y="132">Solutions</text>
+    <text class="role" x="24" y="152">Software Engineer</text>
+  </g>
+
+  <g transform="translate(520 104)">
+    <rect width="190" height="192" rx="22" fill="#052E2B" stroke="#14B8A6"/>
+    <circle cx="54" cy="54" r="30" fill="#14B8A6"/>
+    <text class="year" x="34" y="60">2020</text>
+    <text class="company" x="24" y="112">Jio Platforms</text>
+    <text class="role" x="24" y="140">Software Engineer III</text>
+    <rect x="24" y="158" width="128" height="24" rx="12" fill="#0F766E"/>
+    <text class="stage" x="42" y="175">Scale systems</text>
+  </g>
+
+  <g transform="translate(740 126)">
+    <rect width="190" height="170" rx="22" fill="#2E1065" stroke="#A855F7"/>
+    <circle cx="54" cy="54" r="30" fill="#A855F7"/>
+    <text class="year" x="34" y="60">2024</text>
+    <text class="company" x="24" y="112">Wayfair</text>
+    <text class="role" x="24" y="140">Software Engineer</text>
+  </g>
+
+  <g transform="translate(960 84)">
+    <rect width="190" height="212" rx="22" fill="#431407" stroke="#F97316"/>
+    <circle cx="54" cy="54" r="30" fill="#F97316"/>
+    <text class="year" x="34" y="60">2025</text>
+    <text class="company" x="24" y="112">Oracle Cloud</text>
+    <text class="company" x="24" y="136">Infrastructure</text>
+    <text class="role" x="24" y="164">Software Engineer III</text>
+    <rect x="24" y="180" width="124" height="24" rx="12" fill="#EA580C"/>
+    <text class="stage" x="43" y="197">Cloud infra</text>
+  </g>
+</svg>
