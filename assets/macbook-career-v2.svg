@@ -1,0 +1,46 @@
+<svg width="1280" height="560" viewBox="0 0 1280 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="560"><stop stop-color="#071629"/><stop offset="0.45" stop-color="#0B2A3D"/><stop offset="1" stop-color="#0E7490"/></linearGradient>
+    <linearGradient id="wave" x1="0" y1="330" x2="1280" y2="560"><stop stop-color="#38BDF8"/><stop offset="0.5" stop-color="#14B8A6"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#020617" flood-opacity="0.32"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feBlend in="SourceGraphic" in2="b" mode="screen"/></filter>
+    <style>.title{font:900 36px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}.sub{font:750 15px Inter,Segoe UI,Arial,sans-serif;fill:#BAE6FD}.brand{font:950 15px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF;letter-spacing:.7px}.company{font:900 19px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}.role{font:800 12px Inter,Segoe UI,Arial,sans-serif;fill:#CBD5E1}.year{font:900 11px Inter,Segoe UI,Arial,sans-serif;fill:#93C5FD;letter-spacing:1px}.micro{font:850 10px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:1.4px}@keyframes dash{to{stroke-dashoffset:-220}}@keyframes glowPulse{0%,100%{opacity:.55}50%{opacity:1}}.dash{stroke-dasharray:12 14;animation:dash 5s linear infinite}.pulse{animation:glowPulse 2.6s ease-in-out infinite}</style>
+  </defs>
+  <rect width="1280" height="560" rx="38" fill="url(#bg)"/>
+  <path d="M0 410C174 340 288 406 444 342C612 274 734 286 884 346C1032 406 1150 352 1280 300V560H0V410Z" fill="url(#wave)" opacity="0.18"/>
+  <path class="dash" d="M52 438C198 374 306 418 454 358C612 294 756 304 906 360C1048 414 1152 360 1232 322" stroke="url(#wave)" stroke-width="4" stroke-linecap="round" opacity="0.72"/>
+  <rect x="58" y="54" width="1164" height="440" rx="34" fill="#0F172A" opacity="0.82" stroke="#38BDF8" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="84" y="78" width="1112" height="38" rx="19" fill="#111827" stroke="#1E293B"/>
+  <circle cx="114" cy="97" r="6" fill="#F87171"/><circle cx="136" cy="97" r="6" fill="#FBBF24"/><circle cx="158" cy="97" r="6" fill="#34D399"/>
+  <text class="micro" x="190" y="101">career-growth.play</text>
+  <text class="title" x="92" y="162">Career Growth</text><text class="sub" x="92" y="190">A clean progression through enterprise platforms, communications, commerce scale, and cloud infrastructure</text>
+  <path class="dash" d="M174 334H1108" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" opacity="0.65" filter="url(#glow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="92" y="228" width="196" height="206" rx="24" fill="#111827" stroke="#64748B"/>
+    <rect x="116" y="252" width="148" height="58" rx="18" fill="#475569" filter="url(#glow)"/><text class="brand" x="132" y="286">MANHATTAN</text>
+    <text class="year" x="116" y="344">2015 - 2019</text><text class="company" x="116" y="376">Manhattan</text><text class="company" x="116" y="400">Associates</text><text class="role" x="116" y="424">Associate SWE -> SWE</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="322" y="228" width="196" height="206" rx="24" fill="#111827" stroke="#EF4444"/>
+    <rect x="346" y="252" width="148" height="58" rx="18" fill="#E1140A" filter="url(#glow)"/><text class="brand" x="365" y="278">MOTOROLA</text><text class="brand" x="365" y="296">SOLUTIONS</text>
+    <text class="year" x="346" y="344">2019</text><text class="company" x="346" y="376">Motorola</text><text class="company" x="346" y="400">Solutions</text><text class="role" x="346" y="424">Software Engineer</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="552" y="228" width="196" height="206" rx="24" fill="#111827" stroke="#3B82F6"/>
+    <rect x="576" y="252" width="148" height="58" rx="18" fill="#0A2885" filter="url(#glow)"/><text class="brand" x="622" y="278">JIO</text><text class="brand" x="604" y="296">PLATFORMS</text>
+    <text class="year" x="576" y="344">2020 - 2022</text><text class="company" x="576" y="380">Jio Platforms</text><text class="role" x="576" y="410">Software Engineer III</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="782" y="228" width="196" height="206" rx="24" fill="#111827" stroke="#A855F7"/>
+    <rect x="806" y="252" width="148" height="58" rx="18" fill="#7B2CBF" filter="url(#glow)"/><text class="brand" x="835" y="288">WAYFAIR</text>
+    <text class="year" x="806" y="344">2024 - 2025</text><text class="company" x="806" y="380">Wayfair</text><text class="role" x="806" y="410">Software Engineer</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="1012" y="214" width="196" height="234" rx="26" fill="#111827" stroke="#F97316"/>
+    <rect x="1036" y="238" width="148" height="62" rx="18" fill="#F80000" filter="url(#glow)"/><text class="brand" x="1073" y="275">ORACLE</text>
+    <text class="year" x="1036" y="334">2025 - PRESENT</text><text class="company" x="1036" y="370">Oracle Cloud</text><text class="company" x="1036" y="394">Infrastructure</text><text class="role" x="1036" y="424">Software Engineer III</text>
+  </g>
+  <circle class="pulse" cx="304" cy="334" r="8" fill="#64748B"/><circle class="pulse" cx="534" cy="334" r="8" fill="#EF4444"/><circle class="pulse" cx="764" cy="334" r="8" fill="#3B82F6"/><circle class="pulse" cx="994" cy="334" r="8" fill="#A855F7"/>
+  <text class="micro" x="92" y="472">NO EXTERNAL IMAGES / CLEAN GLOWING COMPANY TILES / MACBOOK CAREER PANEL</text>
+</svg>
