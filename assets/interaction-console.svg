@@ -1,0 +1,21 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520"><stop stop-color="#020617"/><stop offset=".5" stop-color="#0F172A"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="ok" x1="90" y1="90" x2="1110" y2="430"><stop stop-color="#38BDF8"/><stop offset=".5" stop-color="#14B8A6"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feBlend in="SourceGraphic" in2="b" mode="screen"/></filter>
+    <style>.title{font:900 34px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}.sub{font:700 15px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8}.mono{font:800 16px JetBrains Mono,Consolas,monospace;fill:#BAE6FD}.green{font:800 16px JetBrains Mono,Consolas,monospace;fill:#86EFAC}.cyan{font:800 16px JetBrains Mono,Consolas,monospace;fill:#67E8F9}.label{font:900 13px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:1px}.big{font:900 26px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}.small{font:750 13px Inter,Segoe UI,Arial,sans-serif;fill:#CBD5E1}@keyframes flow{to{stroke-dashoffset:-180}}@keyframes blink{0%,45%{opacity:.2}46%,100%{opacity:1}}@keyframes bar{0%,100%{width:64px}50%{width:180px}}.flow{stroke-dasharray:9 13;animation:flow 4.5s linear infinite}.blink{animation:blink 1.1s steps(2,end) infinite}.bar1{animation:bar 3s ease-in-out infinite}.bar2{animation:bar 3.8s ease-in-out infinite}.bar3{animation:bar 4.6s ease-in-out infinite}</style>
+  </defs>
+  <rect width="1200" height="520" rx="34" fill="url(#bg)"/>
+  <text class="title" x="62" y="72">Interactive profile console</text><text class="sub" x="62" y="102">A README-native interface built from animated SVG modules and expandable panels</text>
+  <rect x="58" y="132" width="520" height="318" rx="26" fill="#020617" stroke="#1E293B"/>
+  <rect x="78" y="152" width="480" height="42" rx="14" fill="#0F172A"/><circle cx="104" cy="173" r="6" fill="#EF4444"/><circle cx="126" cy="173" r="6" fill="#F59E0B"/><circle cx="148" cy="173" r="6" fill="#22C55E"/><text class="label" x="182" y="178">PUNEET.SYSTEMS</text>
+  <text class="green" x="86" y="230">$ load profile --mode advanced</text><text class="cyan" x="86" y="266">status: platform engineer online</text><text class="mono" x="86" y="302">focus: distributed workflows</text><text class="mono" x="86" y="338">stack: java + spring + kafka</text><text class="mono" x="86" y="374">runtime: cloud infrastructure</text><text class="green" x="86" y="410">signal: reliability-first</text><rect class="blink" x="338" y="397" width="12" height="22" fill="#86EFAC"/>
+  <g transform="translate(646 150)">
+    <rect width="214" height="118" rx="24" fill="#0F172A" stroke="#38BDF8"/><text class="label" x="24" y="34">MODULE</text><text class="big" x="24" y="70">Career</text><text class="small" x="24" y="96">progression timeline</text>
+    <rect x="254" width="214" height="118" rx="24" fill="#0F172A" stroke="#14B8A6"/><text class="label" x="278" y="34">MODULE</text><text class="big" x="278" y="70">Systems</text><text class="small" x="278" y="96">architecture map</text>
+    <rect y="164" width="214" height="118" rx="24" fill="#0F172A" stroke="#22C55E"/><text class="label" x="24" y="198">MODULE</text><text class="big" x="24" y="234">Stack</text><text class="small" x="24" y="260">technology matrix</text>
+    <rect x="254" y="164" width="214" height="118" rx="24" fill="#0F172A" stroke="#A78BFA"/><text class="label" x="278" y="198">MODULE</text><text class="big" x="278" y="234">Principles</text><text class="small" x="278" y="260">engineering console</text>
+    <path class="flow" d="M214 59H254M107 118V164M361 118V164M214 223H254" stroke="url(#ok)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+  </g>
+  <g transform="translate(62 474)"><rect class="bar1" width="150" height="10" rx="5" fill="#38BDF8"/><rect class="bar2" x="210" width="120" height="10" rx="5" fill="#14B8A6"/><rect class="bar3" x="390" width="170" height="10" rx="5" fill="#22C55E"/><text class="label" x="620" y="10">NO GITHUB STAT WIDGETS. CUSTOM VISUAL SYSTEM ONLY.</text></g>
+</svg>
