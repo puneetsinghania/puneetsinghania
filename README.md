@@ -6,15 +6,7 @@
 <summary><b>Career Progression</b></summary>
 <br />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Manhattan%20Associates-475569?style=for-the-badge" alt="Manhattan Associates" />
-  <img src="https://img.shields.io/badge/Motorola%20Solutions-E1140A?style=for-the-badge&logo=motorola&logoColor=white" alt="Motorola Solutions" />
-  <img src="https://img.shields.io/badge/Jio%20Platforms-0A2885?style=for-the-badge&logo=relianceindustrieslimited&logoColor=white" alt="Jio Platforms" />
-  <img src="https://img.shields.io/badge/Wayfair-7B2CBF?style=for-the-badge&logo=wayfair&logoColor=white" alt="Wayfair" />
-  <img src="https://img.shields.io/badge/Oracle%20SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle SQL" />
-</p>
-
-<img width="100%" src="./assets/career-board.svg" alt="Premium career progression board from Manhattan Associates to Oracle Cloud Infrastructure" />
+<img width="100%" src="./assets/career-board.svg" alt="Branded company card career progression from Manhattan Associates to Oracle Cloud Infrastructure" />
 
 </details>
 
@@ -73,6 +65,20 @@
   <img src="https://img.shields.io/badge/Platform%20Engineering-EDE9FE?style=for-the-badge&labelColor=7C3AED&color=EDE9FE" alt="Platform engineering" />
   <img src="https://img.shields.io/badge/Observability%20%2B%20Reliability-FFEDD5?style=for-the-badge&labelColor=F97316&color=FFEDD5" alt="Observability and reliability" />
   <img src="https://img.shields.io/badge/High%20Traffic%20Systems-FEE2E2?style=for-the-badge&labelColor=DC2626&color=FEE2E2" alt="High traffic systems" />
+</p>
+
+</details>
+
+<details open>
+<summary><b>Contact</b></summary>
+<br />
+
+<img width="100%" src="./assets/contact-section.svg" alt="Phonebook style contact card" />
+
+<p align="center">
+  <a href="mailto:puneetsinghania2002@gmail.com"><img src="https://img.shields.io/badge/Email-puneetsinghania2002%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/puneet-singhania"><img src="https://img.shields.io/badge/LinkedIn-Puneet%20Singhania-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/puneetsinghania"><img src="https://img.shields.io/badge/GitHub-puneetsinghania-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 </details>
