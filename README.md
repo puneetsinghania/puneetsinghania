@@ -10,7 +10,7 @@
 <summary><b>Career Progression</b></summary>
 <br />
 
-<img width="100%" src="./assets/macbook-career-v4.svg" alt="Clean MacBook-style career progression from Manhattan Associates to Oracle Cloud Infrastructure" />
+<img width="100%" src="./assets/career-dashboard-v1.svg" alt="Dashboard-style career progression from Manhattan Associates to Oracle Cloud Infrastructure" />
 
 </details>
 
@@ -18,7 +18,7 @@
 <summary><b>Engineering Dashboard</b></summary>
 <br />
 
-<img width="100%" src="./assets/macbook-dashboard-v3.svg" alt="MacBook-style engineering dashboard for backend systems, cloud infrastructure, data, and reliability" />
+<img width="100%" src="./assets/engineering-dashboard-animated-v1.svg" alt="Animated MacBook-style engineering dashboard for backend systems, cloud infrastructure, data, and reliability" />
 
 </details>
 
@@ -47,7 +47,7 @@
 <summary><b>Education</b></summary>
 <br />
 
-<img width="100%" src="./assets/macbook-education-v2.svg" alt="Clean academic education section with UC Riverside and National Institute of Engineering" />
+<img width="100%" src="./assets/education-animated-v1.svg" alt="Animated academic education section with UC Riverside and National Institute of Engineering" />
 
 </details>
 
@@ -61,6 +61,20 @@
   <img src="https://img.shields.io/badge/Platform%20Engineering-EDE9FE?style=for-the-badge&labelColor=7C3AED&color=EDE9FE" alt="Platform engineering" />
   <img src="https://img.shields.io/badge/Observability%20%2B%20Reliability-FFEDD5?style=for-the-badge&labelColor=F97316&color=FFEDD5" alt="Observability and reliability" />
   <img src="https://img.shields.io/badge/High%20Traffic%20Systems-FEE2E2?style=for-the-badge&labelColor=DC2626&color=FEE2E2" alt="High traffic systems" />
+</p>
+
+</details>
+
+<details open>
+<summary><b>Contact</b></summary>
+<br />
+
+<img width="100%" src="./assets/contact-console-v1.svg" alt="Animated contact console with email, LinkedIn, GitHub, and location" />
+
+<p align="center">
+  <a href="mailto:puneetsinghania2002@gmail.com"><img src="https://img.shields.io/badge/Gmail-puneetsinghania2002%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://www.linkedin.com/in/puneet-singhania"><img src="https://img.shields.io/badge/LinkedIn-Puneet%20Singhania-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/puneetsinghania"><img src="https://img.shields.io/badge/GitHub-puneetsinghania-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 </details>
