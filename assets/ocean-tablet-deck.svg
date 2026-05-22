@@ -1,17 +1,20 @@
-<svg width="1280" height="500" viewBox="0 0 1280 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="sea" x1="0" y1="0" x2="1280" y2="500"><stop stop-color="#F0FDFA"/><stop offset="0.46" stop-color="#E0F2FE"/><stop offset="1" stop-color="#DBEAFE"/></linearGradient>
-    <linearGradient id="edge" x1="80" y1="70" x2="1200" y2="430"><stop stop-color="#2563EB"/><stop offset="0.52" stop-color="#14B8A6"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1280" y2="520"><stop stop-color="#F0FDFA"/><stop offset="0.46" stop-color="#E0F2FE"/><stop offset="1" stop-color="#DBEAFE"/></linearGradient>
+    <linearGradient id="edge" x1="80" y1="70" x2="1200" y2="450"><stop stop-color="#2563EB"/><stop offset="0.52" stop-color="#14B8A6"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
     <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.14"/></filter>
     <style>.title{font:900 38px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}.sub{font:750 15px Inter,Segoe UI,Arial,sans-serif;fill:#475569}.card{font:900 22px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}.body{font:750 14px Inter,Segoe UI,Arial,sans-serif;fill:#334155}.micro{font:850 11px Inter,Segoe UI,Arial,sans-serif;fill:#64748B;letter-spacing:1.4px}@keyframes bar{0%,100%{transform:scaleX(.45)}50%{transform:scaleX(1)}}.bar{transform-origin:left;animation:bar 3s ease-in-out infinite}</style>
   </defs>
-  <rect width="1280" height="500" rx="38" fill="url(#sea)"/>
-  <path d="M0 370C180 308 280 366 430 310C604 246 728 260 878 318C1030 376 1148 326 1280 278V500H0V370Z" fill="url(#edge)" opacity="0.12"/>
-  <rect x="54" y="54" width="1172" height="386" rx="38" fill="#FFFFFF" opacity="0.82" stroke="#BAE6FD" stroke-width="2" filter="url(#shadow)"/>
-  <text class="title" x="86" y="106">Engineering Deck</text><text class="sub" x="86" y="136">Core modules I bring into backend, platform, and infrastructure work</text>
-  <g filter="url(#shadow)"><rect x="88" y="184" width="280" height="136" rx="28" fill="#FFFFFF" stroke="#2563EB"/><text class="micro" x="116" y="218">STACK</text><text class="card" x="116" y="256">Core Services</text><text class="body" x="116" y="286">Java / Spring Boot / Kafka</text><rect x="116" y="302" width="190" height="8" rx="4" fill="#DBEAFE"/><rect class="bar" x="116" y="302" width="190" height="8" rx="4" fill="#2563EB"/></g>
-  <g filter="url(#shadow)"><rect x="500" y="184" width="280" height="136" rx="28" fill="#FFFFFF" stroke="#0EA5E9"/><text class="micro" x="528" y="218">RUNTIME</text><text class="card" x="528" y="256">Cloud Platform</text><text class="body" x="528" y="286">OCI / Docker / Kubernetes</text><rect x="528" y="302" width="190" height="8" rx="4" fill="#CFFAFE"/><rect class="bar" style="animation-delay:.35s" x="528" y="302" width="190" height="8" rx="4" fill="#0EA5E9"/></g>
-  <g filter="url(#shadow)"><rect x="912" y="184" width="280" height="136" rx="28" fill="#FFFFFF" stroke="#14B8A6"/><text class="micro" x="940" y="218">DATA</text><text class="card" x="940" y="256">Performance Plane</text><text class="body" x="940" y="286">Redis / SQL / Throughput</text><rect x="940" y="302" width="190" height="8" rx="4" fill="#CCFBF1"/><rect class="bar" style="animation-delay:.7s" x="940" y="302" width="190" height="8" rx="4" fill="#14B8A6"/></g>
-  <g filter="url(#shadow)"><rect x="294" y="350" width="280" height="58" rx="22" fill="#FFFFFF" stroke="#7C3AED"/><text class="card" x="324" y="388">Workflow Orchestration</text></g>
-  <g filter="url(#shadow)"><rect x="706" y="350" width="280" height="58" rx="22" fill="#FFFFFF" stroke="#F97316"/><text class="card" x="748" y="388">Observability</text></g>
+  <rect width="1280" height="520" rx="38" fill="url(#sea)"/>
+  <path d="M0 388C180 326 280 384 430 328C604 264 728 278 878 336C1030 394 1148 344 1280 296V520H0V388Z" fill="url(#edge)" opacity="0.12"/>
+  <rect x="54" y="54" width="1172" height="408" rx="38" fill="#FFFFFF" opacity="0.82" stroke="#BAE6FD" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="82" y="80" width="1116" height="38" rx="19" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <circle cx="112" cy="99" r="6" fill="#F87171"/><circle cx="134" cy="99" r="6" fill="#FBBF24"/><circle cx="156" cy="99" r="6" fill="#34D399"/>
+  <text class="micro" x="188" y="103">engineering-deck.app</text>
+  <text class="title" x="86" y="164">Engineering Deck</text><text class="sub" x="86" y="194">Core modules I bring into backend, platform, and infrastructure work</text>
+  <g filter="url(#shadow)"><rect x="88" y="232" width="280" height="116" rx="28" fill="#FFFFFF" stroke="#2563EB"/><text class="micro" x="116" y="264">STACK</text><text class="card" x="116" y="300">Core Services</text><text class="body" x="116" y="328">Java / Spring Boot / Kafka</text></g>
+  <g filter="url(#shadow)"><rect x="500" y="232" width="280" height="116" rx="28" fill="#FFFFFF" stroke="#0EA5E9"/><text class="micro" x="528" y="264">RUNTIME</text><text class="card" x="528" y="300">Cloud Platform</text><text class="body" x="528" y="328">OCI / Docker / Kubernetes</text></g>
+  <g filter="url(#shadow)"><rect x="912" y="232" width="280" height="116" rx="28" fill="#FFFFFF" stroke="#14B8A6"/><text class="micro" x="940" y="264">DATA</text><text class="card" x="940" y="300">Performance Plane</text><text class="body" x="940" y="328">Redis / SQL / Throughput</text></g>
+  <g filter="url(#shadow)"><rect x="294" y="382" width="280" height="54" rx="22" fill="#FFFFFF" stroke="#7C3AED"/><text class="card" x="324" y="417">Workflow Orchestration</text></g>
+  <g filter="url(#shadow)"><rect x="706" y="382" width="280" height="54" rx="22" fill="#FFFFFF" stroke="#F97316"/><text class="card" x="748" y="417">Observability</text></g>
 </svg>
