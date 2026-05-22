@@ -1,0 +1,90 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="560">
+      <stop stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#082F49"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="120" y1="100" x2="1080" y2="480">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <style>
+      .title { font: 900 34px Inter, Segoe UI, Arial, sans-serif; fill: #F8FAFC; letter-spacing: 0; }
+      .sub { font: 700 15px Inter, Segoe UI, Arial, sans-serif; fill: #94A3B8; letter-spacing: 0; }
+      .node { font: 900 20px Inter, Segoe UI, Arial, sans-serif; fill: #F8FAFC; letter-spacing: 0; }
+      .nodeSub { font: 600 13px Inter, Segoe UI, Arial, sans-serif; fill: #BAE6FD; letter-spacing: 0; }
+      .chip { font: 800 13px Inter, Segoe UI, Arial, sans-serif; fill: #E0F2FE; letter-spacing: 0; }
+      @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+      @keyframes orbit { to { stroke-dashoffset: -120; } }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; }
+      .orbit { stroke-dasharray: 8 12; animation: orbit 5s linear infinite; }
+    </style>
+  </defs>
+  <rect width="1200" height="560" rx="32" fill="url(#bg)"/>
+  <text class="title" x="60" y="70">Engineering operating system</text>
+  <text class="sub" x="60" y="100">The areas where I like to design, build, harden, and scale systems</text>
+
+  <g opacity="0.9">
+    <path class="orbit" d="M600 270L252 170" stroke="url(#edge)" stroke-width="3"/>
+    <path class="orbit" d="M600 270L948 170" stroke="url(#edge)" stroke-width="3"/>
+    <path class="orbit" d="M600 270L252 402" stroke="url(#edge)" stroke-width="3"/>
+    <path class="orbit" d="M600 270L948 402" stroke="url(#edge)" stroke-width="3"/>
+    <path class="orbit" d="M600 270L600 448" stroke="url(#edge)" stroke-width="3"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="600" cy="270" r="92" fill="#020617" stroke="url(#edge)" stroke-width="5"/>
+    <circle class="pulse" cx="600" cy="270" r="60" fill="#0EA5E9" opacity="0.18"/>
+    <text class="node" x="532" y="264">Reliable</text>
+    <text class="node" x="525" y="290">Platforms</text>
+    <text class="nodeSub" x="520" y="316">scale + clarity + ops</text>
+  </g>
+
+  <g transform="translate(90 110)">
+    <rect width="324" height="132" rx="24" fill="#0F172A" stroke="#38BDF8"/>
+    <circle cx="56" cy="58" r="28" fill="#082F49" stroke="#38BDF8" stroke-width="3"/>
+    <text class="node" x="100" y="54">Backend Services</text>
+    <text class="nodeSub" x="100" y="80">APIs, service boundaries, Java</text>
+    <rect x="100" y="96" width="74" height="24" rx="12" fill="#075985"/><text class="chip" x="124" y="113">Java</text>
+    <rect x="184" y="96" width="104" height="24" rx="12" fill="#075985"/><text class="chip" x="202" y="113">Spring</text>
+  </g>
+
+  <g transform="translate(786 110)">
+    <rect width="324" height="132" rx="24" fill="#0F172A" stroke="#14B8A6"/>
+    <circle cx="56" cy="58" r="28" fill="#052E2B" stroke="#14B8A6" stroke-width="3"/>
+    <text class="node" x="100" y="54">Workflow Systems</text>
+    <text class="nodeSub" x="100" y="80">orchestration, retries, isolation</text>
+    <rect x="100" y="96" width="82" height="24" rx="12" fill="#0F766E"/><text class="chip" x="124" y="113">Kafka</text>
+    <rect x="192" y="96" width="94" height="24" rx="12" fill="#0F766E"/><text class="chip" x="208" y="113">Async</text>
+  </g>
+
+  <g transform="translate(90 342)">
+    <rect width="324" height="132" rx="24" fill="#0F172A" stroke="#22C55E"/>
+    <circle cx="56" cy="58" r="28" fill="#14532D" stroke="#22C55E" stroke-width="3"/>
+    <text class="node" x="100" y="54">Cloud Infrastructure</text>
+    <text class="nodeSub" x="100" y="80">containers, automation, deployment</text>
+    <rect x="100" y="96" width="90" height="24" rx="12" fill="#15803D"/><text class="chip" x="116" y="113">Docker</text>
+    <rect x="200" y="96" width="88" height="24" rx="12" fill="#15803D"/><text class="chip" x="216" y="113">K8s</text>
+  </g>
+
+  <g transform="translate(786 342)">
+    <rect width="324" height="132" rx="24" fill="#0F172A" stroke="#A78BFA"/>
+    <circle cx="56" cy="58" r="28" fill="#2E1065" stroke="#A78BFA" stroke-width="3"/>
+    <text class="node" x="100" y="54">Data + Performance</text>
+    <text class="nodeSub" x="100" y="80">cache, SQL, throughput, latency</text>
+    <rect x="100" y="96" width="82" height="24" rx="12" fill="#6D28D9"/><text class="chip" x="120" y="113">Redis</text>
+    <rect x="192" y="96" width="82" height="24" rx="12" fill="#6D28D9"/><text class="chip" x="218" y="113">SQL</text>
+  </g>
+
+  <g transform="translate(444 420)">
+    <rect width="312" height="82" rx="22" fill="#0F172A" stroke="#F59E0B"/>
+    <text class="node" x="58" y="36">Observability</text>
+    <text class="nodeSub" x="58" y="60">logs, metrics, ownership, production calm</text>
+  </g>
+</svg>
