@@ -1,0 +1,19 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360"><stop stop-color="#020617"/><stop offset="0.5" stop-color="#0F172A"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <linearGradient id="edge" x1="90" y1="70" x2="1190" y2="310"><stop stop-color="#38BDF8"/><stop offset="0.55" stop-color="#818CF8"/><stop offset="1" stop-color="#14B8A6"/></linearGradient>
+    <style>.title{font:900 34px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}.sub{font:750 15px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8}.school{font:900 24px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF}.degree{font:800 16px Inter,Segoe UI,Arial,sans-serif;fill:#BAE6FD}.place{font:850 12px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:1.5px}@keyframes dash{to{stroke-dashoffset:-180}}.dash{stroke-dasharray:12 14;animation:dash 5s linear infinite}</style>
+  </defs>
+  <rect width="1280" height="360" rx="34" fill="url(#bg)"/>
+  <rect x="54" y="54" width="1172" height="252" rx="30" fill="#020617" opacity="0.62" stroke="url(#edge)" stroke-width="2"/>
+  <text class="title" x="86" y="104">Education</text><text class="sub" x="86" y="132">Computer science foundation behind the systems work</text>
+  <path class="dash" d="M330 206H950" stroke="url(#edge)" stroke-width="4" stroke-linecap="round"/>
+  <g>
+    <rect x="92" y="170" width="402" height="96" rx="24" fill="#0F172A" stroke="#38BDF8"/>
+    <text class="school" x="124" y="212">UC Riverside</text><text class="degree" x="124" y="240">Master of Science in Computer Science</text><text class="place" x="124" y="262">RIVERSIDE, CALIFORNIA</text>
+  </g>
+  <g>
+    <rect x="786" y="170" width="402" height="96" rx="24" fill="#0F172A" stroke="#14B8A6"/>
+    <text class="school" x="818" y="212">The National Institute of Engineering</text><text class="degree" x="818" y="240">Bachelor of Engineering in Information Science</text><text class="place" x="818" y="262">MYSORE, INDIA</text>
+  </g>
+</svg>
