@@ -1,0 +1,52 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720">
+      <stop stop-color="#020617"/><stop offset="0.48" stop-color="#07111F"/><stop offset="1" stop-color="#062E36"/>
+    </linearGradient>
+    <linearGradient id="line" x1="100" y1="120" x2="1180" y2="610">
+      <stop stop-color="#38BDF8"/><stop offset="0.46" stop-color="#14B8A6"/><stop offset="1" stop-color="#A3E635"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#38BDF8" stop-opacity="0.35"/><stop offset="0.55" stop-color="#14B8A6" stop-opacity="0.12"/><stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="16" result="b"/><feBlend in="SourceGraphic" in2="b" mode="screen"/></filter>
+    <style>
+      .name{font:900 86px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF;letter-spacing:0}.role{font:800 28px Inter,Segoe UI,Arial,sans-serif;fill:#BAE6FD;letter-spacing:0}.micro{font:800 13px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:2.4px}.chip{font:800 16px Inter,Segoe UI,Arial,sans-serif;fill:#E0F2FE;letter-spacing:0}.metric{font:900 22px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}.metricLabel{font:800 11px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:1.5px}
+      @keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(24px)}}@keyframes dash{to{stroke-dashoffset:-260}}@keyframes breathe{0%,100%{opacity:.22;transform:scale(.98)}50%{opacity:.75;transform:scale(1.04)}}@keyframes scan{0%{transform:translateX(-220px);opacity:0}20%,65%{opacity:.32}100%{transform:translateX(1300px);opacity:0}}@keyframes cursor{0%,45%{opacity:0}46%,100%{opacity:1}}.drift{animation:drift 8s ease-in-out infinite}.dash{stroke-dasharray:14 18;animation:dash 6s linear infinite}.breathe{transform-origin:center;animation:breathe 4s ease-in-out infinite}.scan{animation:scan 6s ease-in-out infinite}.cursor{animation:cursor 1s steps(2,end) infinite}
+    </style>
+  </defs>
+  <rect width="1280" height="720" rx="42" fill="url(#bg)"/>
+  <g opacity="0.13"><path d="M70 122H1210M70 206H1210M70 290H1210M70 374H1210M70 458H1210M70 542H1210M70 626H1210" stroke="#94A3B8"/><path d="M130 70V650M250 70V650M370 70V650M490 70V650M610 70V650M730 70V650M850 70V650M970 70V650M1090 70V650" stroke="#94A3B8"/></g>
+  <rect class="scan" width="180" height="720" fill="#38BDF8" opacity="0.12"/>
+  <circle class="breathe" cx="930" cy="350" r="210" fill="url(#halo)"/>
+  <rect x="58" y="58" width="1164" height="604" rx="34" fill="#020617" opacity="0.62" stroke="url(#line)" stroke-width="2.5"/>
+  <rect x="82" y="82" width="1116" height="556" rx="26" fill="none" stroke="#1E293B"/>
+
+  <g transform="translate(112 124)">
+    <text class="micro" x="0" y="0">SOFTWARE ENGINEER III / ORACLE CLOUD INFRASTRUCTURE</text>
+    <text class="name" x="0" y="116">Puneet Singhania</text>
+    <rect x="0" y="142" width="620" height="3" rx="1.5" fill="url(#line)"/>
+    <text class="role" x="0" y="204">Backend Systems | Cloud Infrastructure | Distributed Workflows</text>
+    <g transform="translate(0 252)">
+      <rect width="174" height="48" rx="24" fill="#082F49" stroke="#38BDF8"/><text class="chip" x="32" y="30">Java / Spring</text>
+      <rect x="192" width="142" height="48" rx="24" fill="#052E2B" stroke="#14B8A6"/><text class="chip" x="232" y="30">Kafka</text>
+      <rect x="352" width="156" height="48" rx="24" fill="#14532D" stroke="#22C55E"/><text class="chip" x="390" y="30">Redis</text>
+      <rect x="526" width="180" height="48" rx="24" fill="#1E1B4B" stroke="#A78BFA"/><text class="chip" x="560" y="30">Kubernetes</text>
+    </g>
+    <g transform="translate(0 370)">
+      <rect width="198" height="90" rx="20" fill="#0F172A" stroke="#1E293B"/><text class="metric" x="26" y="40">Platform</text><text class="metricLabel" x="26" y="64">ENGINEERING</text>
+      <rect x="222" width="198" height="90" rx="20" fill="#0F172A" stroke="#1E293B"/><text class="metric" x="248" y="40">Reliability</text><text class="metricLabel" x="248" y="64">PRODUCTION-FIRST</text>
+      <rect x="444" width="198" height="90" rx="20" fill="#0F172A" stroke="#1E293B"/><text class="metric" x="470" y="40">Scale</text><text class="metricLabel" x="470" y="64">SYSTEM DESIGN</text>
+    </g>
+  </g>
+
+  <g class="drift" transform="translate(815 168)">
+    <circle cx="180" cy="180" r="138" fill="#020617" stroke="url(#line)" stroke-width="4" filter="url(#softGlow)"/>
+    <circle cx="180" cy="180" r="88" fill="none" stroke="#38BDF8" stroke-width="3" stroke-dasharray="9 14"/>
+    <path class="dash" d="M180 38C294 38 370 86 370 180C370 274 294 322 180 322C66 322 -10 274 -10 180C-10 86 66 38 180 38Z" stroke="#14B8A6" stroke-width="3"/>
+    <path class="dash" d="M80 180C80 66 112 -10 180 -10C248 -10 280 66 280 180C280 294 248 370 180 370C112 370 80 294 80 180Z" stroke="#38BDF8" stroke-width="3"/>
+    <circle cx="180" cy="180" r="28" fill="#22C55E" filter="url(#softGlow)"/>
+    <circle cx="180" cy="180" r="10" fill="#F8FAFC"/>
+  </g>
+  <g transform="translate(112 610)"><circle cx="0" cy="0" r="7" fill="#22C55E"/><text class="micro" x="20" y="5">SYSTEM ONLINE</text><rect class="cursor" x="162" y="-13" width="12" height="22" fill="#22C55E"/></g>
+</svg>
