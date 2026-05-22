@@ -1,72 +1,51 @@
-<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#020617"/>
-      <stop offset="0.45" stop-color="#0F172A"/>
-      <stop offset="1" stop-color="#042F2E"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="120" y1="90" x2="1050" y2="440" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="0.55" stop-color="#14B8A6"/>
-      <stop offset="1" stop-color="#22C55E"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.1 0 0 0 0 0.8 0 0 0 0 1 0 0 0 0.45 0"/>
-      <feBlend in="SourceGraphic" mode="screen"/>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="620"><stop stop-color="#020617"/><stop offset="0.48" stop-color="#07111F"/><stop offset="1" stop-color="#062A2A"/></linearGradient>
+    <linearGradient id="neon" x1="80" y1="90" x2="1120" y2="540"><stop stop-color="#38BDF8"/><stop offset="0.42" stop-color="#14B8A6"/><stop offset="0.78" stop-color="#22C55E"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%"><stop stop-color="#38BDF8" stop-opacity="0.65"/><stop offset="0.5" stop-color="#14B8A6" stop-opacity="0.22"/><stop offset="1" stop-color="#020617" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="12" result="b"/><feBlend in="SourceGraphic" in2="b" mode="screen"/></filter>
     <style>
-      .title { font: 800 56px Inter, Segoe UI, Arial, sans-serif; fill: #F8FAFC; letter-spacing: 0; }
-      .subtitle { font: 600 24px Inter, Segoe UI, Arial, sans-serif; fill: #BAE6FD; letter-spacing: 0; }
-      .body { font: 500 22px Inter, Segoe UI, Arial, sans-serif; fill: #CBD5E1; letter-spacing: 0; }
-      .chip { font: 700 17px Inter, Segoe UI, Arial, sans-serif; fill: #E0F2FE; letter-spacing: 0; }
-      .mini { font: 700 14px Inter, Segoe UI, Arial, sans-serif; fill: #94A3B8; letter-spacing: 0; }
-      .metric { font: 900 30px Inter, Segoe UI, Arial, sans-serif; fill: #FFFFFF; letter-spacing: 0; }
-      .label { font: 700 13px Inter, Segoe UI, Arial, sans-serif; fill: #A7F3D0; letter-spacing: 0; }
-      @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: .9; } }
-      @keyframes slide { from { transform: translateX(-80px); opacity:.1; } to { transform: translateX(0); opacity:.8; } }
-      .pulse { animation: pulse 3s ease-in-out infinite; }
-      .slide { animation: slide 1.4s ease-out both; }
+      .eyebrow{font:800 13px Inter,Segoe UI,Arial,sans-serif;fill:#7DD3FC;letter-spacing:2px}.h1{font:900 50px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC;letter-spacing:0}.h2{font:800 22px Inter,Segoe UI,Arial,sans-serif;fill:#BAE6FD;letter-spacing:0}.body{font:700 18px Inter,Segoe UI,Arial,sans-serif;fill:#CBD5E1;letter-spacing:0}.tiny{font:800 12px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:1px}.metric{font:900 30px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF;letter-spacing:0}.label{font:800 12px Inter,Segoe UI,Arial,sans-serif;fill:#A7F3D0;letter-spacing:1px}.chip{font:800 14px Inter,Segoe UI,Arial,sans-serif;fill:#E0F2FE;letter-spacing:0}
+      @keyframes scan{0%{transform:translateX(-220px);opacity:0}18%,70%{opacity:.38}100%{transform:translateX(1220px);opacity:0}}@keyframes dash{to{stroke-dashoffset:-180}}@keyframes pulse{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:.9;transform:scale(1.04)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}@keyframes blink{0%,45%{opacity:.25}46%,100%{opacity:1}}.scan{animation:scan 5.5s ease-in-out infinite}.dash{stroke-dasharray:10 14;animation:dash 5s linear infinite}.pulse{transform-origin:center;animation:pulse 3s ease-in-out infinite}.float{animation:float 4.2s ease-in-out infinite}.blink{animation:blink 1.2s steps(2,end) infinite}
     </style>
   </defs>
-  <rect width="1200" height="520" rx="34" fill="url(#bg)"/>
-  <path d="M0 392C145 326 224 373 352 302C496 222 587 100 732 139C883 179 955 338 1200 232V520H0V392Z" fill="url(#accent)" opacity="0.12"/>
-  <circle cx="1015" cy="98" r="140" fill="#0EA5E9" opacity="0.14" filter="url(#glow)"/>
-  <circle cx="194" cy="410" r="120" fill="#22C55E" opacity="0.10" filter="url(#glow)"/>
+  <rect width="1200" height="620" rx="38" fill="url(#bg)"/>
+  <path d="M0 478C150 410 238 468 360 380C505 276 650 162 810 226C956 285 1022 386 1200 312V620H0V478Z" fill="url(#neon)" opacity="0.10"/>
+  <rect class="scan" y="0" width="170" height="620" fill="#38BDF8" opacity="0.10"/>
+  <g opacity="0.16"><path d="M70 120H1130M70 200H1130M70 280H1130M70 360H1130M70 440H1130M70 520H1130" stroke="#94A3B8"/><path d="M140 70V550M260 70V550M380 70V550M500 70V550M620 70V550M740 70V550M860 70V550M980 70V550M1100 70V550" stroke="#94A3B8"/></g>
+  <rect x="52" y="54" width="1096" height="512" rx="32" fill="#020617" opacity="0.72" stroke="url(#neon)" stroke-width="2"/>
 
-  <g class="pulse" opacity="0.55">
-    <path d="M760 106H1038" stroke="#38BDF8" stroke-width="2" stroke-dasharray="8 12"/>
-    <path d="M818 176H1110" stroke="#14B8A6" stroke-width="2" stroke-dasharray="8 12"/>
-    <path d="M716 246H1054" stroke="#22C55E" stroke-width="2" stroke-dasharray="8 12"/>
-  </g>
-
-  <g transform="translate(78 76)">
-    <rect x="0" y="0" width="1044" height="368" rx="28" fill="#020617" opacity="0.72" stroke="url(#accent)" stroke-width="2"/>
-    <text class="mini" x="44" y="54">CURRENT MODE</text>
-    <text class="title" x="44" y="122">Backend + Platform Engineer</text>
-    <text class="subtitle" x="48" y="168">Oracle Cloud Infrastructure | San Francisco Bay Area</text>
-    <text class="body" x="48" y="226">Building reliable distributed systems, orchestration platforms,</text>
-    <text class="body" x="48" y="260">cloud infrastructure workflows, and high-scale backend services.</text>
-
-    <g class="slide" transform="translate(48 300)">
-      <rect width="122" height="42" rx="21" fill="#082F49" stroke="#38BDF8"/>
-      <text class="chip" x="28" y="27">Java</text>
-      <rect x="138" width="168" height="42" rx="21" fill="#052E2B" stroke="#14B8A6"/>
-      <text class="chip" x="166" y="27">Spring Boot</text>
-      <rect x="322" width="120" height="42" rx="21" fill="#14532D" stroke="#22C55E"/>
-      <text class="chip" x="354" y="27">Kafka</text>
-      <rect x="458" width="190" height="42" rx="21" fill="#1E1B4B" stroke="#818CF8"/>
-      <text class="chip" x="489" y="27">Distributed Systems</text>
+  <g transform="translate(86 86)">
+    <text class="eyebrow" x="0" y="0">PROFILE // MISSION CONTROL</text>
+    <text class="h1" x="0" y="66">Puneet Singhania</text>
+    <text class="h2" x="2" y="108">Backend systems. Cloud infrastructure. Distributed workflow platforms.</text>
+    <g transform="translate(0 150)">
+      <rect width="184" height="46" rx="23" fill="#082F49" stroke="#38BDF8"/><text class="chip" x="28" y="29">Oracle Cloud Infra</text>
+      <rect x="202" width="128" height="46" rx="23" fill="#052E2B" stroke="#14B8A6"/><text class="chip" x="234" y="29">Java</text>
+      <rect x="348" width="164" height="46" rx="23" fill="#14532D" stroke="#22C55E"/><text class="chip" x="384" y="29">Spring Boot</text>
+      <rect x="530" width="122" height="46" rx="23" fill="#1E1B4B" stroke="#A78BFA"/><text class="chip" x="568" y="29">Kafka</text>
     </g>
-
-    <g transform="translate(748 68)">
-      <rect width="238" height="238" rx="28" fill="#0F172A" stroke="#1E293B"/>
-      <circle cx="119" cy="108" r="72" fill="#020617" stroke="url(#accent)" stroke-width="8"/>
-      <path d="M119 42V174" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
-      <path d="M53 108H185" stroke="#14B8A6" stroke-width="8" stroke-linecap="round"/>
-      <circle cx="119" cy="108" r="22" fill="#22C55E"/>
-      <text class="metric" x="66" y="214">SCALE</text>
-      <text class="label" x="62" y="235">RELIABILITY FIRST</text>
+    <g transform="translate(0 236)">
+      <rect width="314" height="148" rx="24" fill="#0F172A" stroke="#1E293B"/>
+      <text class="tiny" x="28" y="36">OPERATING PRINCIPLE</text>
+      <text class="body" x="28" y="78">Design services that are</text><text class="body" x="28" y="106">observable, scalable, and</text><text class="body" x="28" y="134">boring in production.</text>
+    </g>
+    <g transform="translate(338 236)">
+      <rect width="314" height="148" rx="24" fill="#0F172A" stroke="#1E293B"/>
+      <text class="tiny" x="28" y="36">SYSTEM SURFACE</text>
+      <text class="body" x="28" y="78">APIs, orchestration, retries,</text><text class="body" x="28" y="106">cache, failure isolation,</text><text class="body" x="28" y="134">and platform ownership.</text>
     </g>
   </g>
+
+  <g class="float" transform="translate(780 116)">
+    <circle cx="150" cy="160" r="132" fill="url(#core)"/>
+    <circle cx="150" cy="160" r="110" fill="#020617" stroke="url(#neon)" stroke-width="3"/>
+    <circle class="pulse" cx="150" cy="160" r="74" fill="#0EA5E9" opacity="0.16"/>
+    <path class="dash" d="M150 48C236 48 304 83 304 160C304 237 236 272 150 272C64 272 -4 237 -4 160C-4 83 64 48 150 48Z" stroke="#38BDF8" stroke-width="3"/>
+    <path class="dash" d="M50 160C50 74 85 6 150 6C215 6 250 74 250 160C250 246 215 314 150 314C85 314 50 246 50 160Z" stroke="#14B8A6" stroke-width="3"/>
+    <circle cx="150" cy="160" r="26" fill="#22C55E" filter="url(#glow)"/>
+    <text class="metric" x="97" y="374">SYSTEMS</text><text class="label" x="86" y="398">DESIGNED FOR PRESSURE</text>
+  </g>
+
+  <g transform="translate(88 512)"><circle class="blink" cx="0" cy="0" r="7" fill="#22C55E"/><text class="tiny" x="18" y="5">AVAILABLE FOR DEEP BACKEND, PLATFORM, AND INFRASTRUCTURE CONVERSATIONS</text></g>
 </svg>
