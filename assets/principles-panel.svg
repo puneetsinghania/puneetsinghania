@@ -1,0 +1,57 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360">
+      <stop stop-color="#020617"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <style>
+      .title { font: 900 32px Inter, Segoe UI, Arial, sans-serif; fill:#F8FAFC; letter-spacing:0; }
+      .left { font: 900 19px Inter, Segoe UI, Arial, sans-serif; fill:#E0F2FE; letter-spacing:0; }
+      .right { font: 800 19px Inter, Segoe UI, Arial, sans-serif; fill:#A7F3D0; letter-spacing:0; }
+      .label { font: 800 13px Inter, Segoe UI, Arial, sans-serif; fill:#94A3B8; letter-spacing:0; }
+      @keyframes scan { 0% { transform: translateX(-220px); opacity:0; } 25%,70% { opacity:.45; } 100% { transform: translateX(1220px); opacity:0; } }
+      .scan { animation: scan 5s ease-in-out infinite; }
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="30" fill="url(#bg)"/>
+  <rect class="scan" y="0" width="160" height="360" fill="#38BDF8" opacity="0.14"/>
+  <text class="title" x="60" y="64">Engineering principles</text>
+  <text class="label" x="60" y="94">The tradeoffs I prefer when systems get real</text>
+
+  <g transform="translate(60 126)">
+    <rect width="500" height="50" rx="16" fill="#0F172A" stroke="#1E293B"/>
+    <text class="left" x="24" y="32">Reliable systems</text>
+    <path d="M330 25H388" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M376 14L390 25L376 36" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="right" x="406" y="32">flashy systems</text>
+  </g>
+  <g transform="translate(640 126)">
+    <rect width="500" height="50" rx="16" fill="#0F172A" stroke="#1E293B"/>
+    <text class="left" x="24" y="32">Clear APIs</text>
+    <path d="M300 25H358" stroke="#14B8A6" stroke-width="3" stroke-linecap="round"/>
+    <path d="M346 14L360 25L346 36" stroke="#14B8A6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="right" x="376" y="32">clever APIs</text>
+  </g>
+  <g transform="translate(60 196)">
+    <rect width="500" height="50" rx="16" fill="#0F172A" stroke="#1E293B"/>
+    <text class="left" x="24" y="32">Observable workflows</text>
+    <path d="M330 25H388" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+    <path d="M376 14L390 25L376 36" stroke="#22C55E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="right" x="406" y="32">silent failures</text>
+  </g>
+  <g transform="translate(640 196)">
+    <rect width="500" height="50" rx="16" fill="#0F172A" stroke="#1E293B"/>
+    <text class="left" x="24" y="32">Simple ownership</text>
+    <path d="M300 25H358" stroke="#A78BFA" stroke-width="3" stroke-linecap="round"/>
+    <path d="M346 14L360 25L346 36" stroke="#A78BFA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="right" x="376" y="32">scattered context</text>
+  </g>
+  <g transform="translate(350 266)">
+    <rect width="500" height="50" rx="16" fill="#0F172A" stroke="#1E293B"/>
+    <text class="left" x="24" y="32">Shipping with quality</text>
+    <path d="M330 25H388" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M376 14L390 25L376 36" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="right" x="406" y="32">luck</text>
+  </g>
+</svg>
