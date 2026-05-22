@@ -1,0 +1,76 @@
+<svg width="1060" height="410" viewBox="0 0 1060 410" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Career progression dashboard</title>
+  <desc id="desc">Dashboard style career progression for Puneet Singhania across Manhattan Associates, Motorola Solutions, Jio Platforms, Wayfair, and Oracle Cloud Infrastructure.</desc>
+  <defs>
+    <linearGradient id="outer" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e0f7ff"/><stop offset="1" stop-color="#dbeafe"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06111f"/><stop offset="0.62" stop-color="#071a2e"/><stop offset="1" stop-color="#042f3f"/></linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="0.28" stop-color="#60a5fa"/><stop offset="0.58" stop-color="#a78bfa"/><stop offset="0.78" stop-color="#fb923c"/><stop offset="1" stop-color="#f43f5e"/></linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="155%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#0f172a" flood-opacity="0.28"/></filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .title{font:900 34px Arial, Helvetica, sans-serif;fill:#f8fafc}.sub{font:700 13px Arial, Helvetica, sans-serif;fill:#bae6fd}.kicker{font:800 11px Arial, Helvetica, sans-serif;letter-spacing:1.6px;fill:#67e8f9}.company{font:900 17px Arial, Helvetica, sans-serif;fill:#f8fafc}.role{font:800 11px Arial, Helvetica, sans-serif;fill:#cbd5e1}.year{font:900 10px Arial, Helvetica, sans-serif;letter-spacing:1.1px;fill:#7dd3fc}.level{font:900 9px Arial, Helvetica, sans-serif;letter-spacing:1px;fill:#08111f}.card{transition:transform .25s ease}.card:hover{transform:translateY(-5px)}@keyframes scan{0%{transform:translateX(-240px);opacity:.08}45%{opacity:.5}100%{transform:translateX(760px);opacity:.08}}.scanner{animation:scan 4.8s linear infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.float{animation:float 4.5s ease-in-out infinite}.float2{animation:float 5.2s ease-in-out .7s infinite}.float3{animation:float 4.8s ease-in-out 1.2s infinite}
+    </style>
+  </defs>
+  <rect width="1060" height="410" rx="34" fill="url(#outer)"/>
+  <path d="M0 298 C180 234 294 328 470 258 C636 192 776 288 1060 208 L1060 410 L0 410 Z" fill="#38bdf8" opacity="0.14"/>
+  <g filter="url(#shadow)">
+    <rect x="50" y="44" width="960" height="314" rx="30" fill="#020617"/>
+    <rect x="76" y="72" width="908" height="238" rx="22" fill="url(#screen)" stroke="#38bdf8" stroke-opacity="0.35"/>
+    <circle cx="530" cy="58" r="4" fill="#dbeafe" opacity="0.76"/>
+  </g>
+  <g class="float" opacity="0.75"><circle cx="778" cy="160" r="96" fill="url(#orb)"/></g>
+  <g class="float2" opacity="0.62"><circle cx="458" cy="218" r="68" fill="url(#orb)"/></g>
+  <rect class="scanner" x="148" y="92" width="210" height="210" rx="105" fill="#22d3ee" opacity="0.1"/>
+  <g transform="translate(106 105)">
+    <text class="kicker" x="0" y="0">CAREER PROGRESSION</text>
+    <text class="title" x="0" y="42">Engineering Journey</text>
+    <text class="sub" x="0" y="68">Enterprise platforms -> communications -> consumer scale -> commerce -> cloud infrastructure</text>
+  </g>
+  <path d="M112 184 L948 184" stroke="url(#rail)" stroke-width="5" stroke-linecap="round" opacity="0.72">
+    <animate attributeName="stroke-dasharray" values="40 760;130 670;40 760" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <g class="card" transform="translate(92 204)">
+    <rect width="166" height="118" rx="18" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.78"/>
+    <circle class="float3" cx="27" cy="28" r="13" fill="#38bdf8" filter="url(#glow)"/>
+    <text class="year" x="52" y="31">2015 - 2019</text>
+    <text class="company" x="18" y="65">Manhattan</text>
+    <text class="company" x="18" y="86">Associates</text>
+    <text class="role" x="18" y="107">Associate SWE -> SWE</text>
+  </g>
+  <g class="card" transform="translate(272 204)">
+    <rect width="166" height="118" rx="18" fill="#141922" stroke="#ef4444" stroke-opacity="0.78"/>
+    <circle class="float" cx="27" cy="28" r="13" fill="#ef4444" filter="url(#glow)"/>
+    <text class="year" x="52" y="31">2019</text>
+    <text class="company" x="18" y="65">Motorola</text>
+    <text class="company" x="18" y="86">Solutions</text>
+    <text class="role" x="18" y="107">Software Engineer</text>
+  </g>
+  <g class="card" transform="translate(452 204)">
+    <rect width="166" height="118" rx="18" fill="#0b1f3a" stroke="#60a5fa" stroke-opacity="0.8"/>
+    <circle class="float2" cx="27" cy="28" r="13" fill="#60a5fa" filter="url(#glow)"/>
+    <text class="year" x="52" y="31">2020 - 2022</text>
+    <text class="company" x="18" y="69">Jio Platforms</text>
+    <text class="role" x="18" y="100">Software Engineer III</text>
+  </g>
+  <g class="card" transform="translate(632 204)">
+    <rect width="166" height="118" rx="18" fill="#1e1b4b" stroke="#a78bfa" stroke-opacity="0.8"/>
+    <circle class="float3" cx="27" cy="28" r="13" fill="#a78bfa" filter="url(#glow)"/>
+    <text class="year" x="52" y="31">2024 - 2025</text>
+    <text class="company" x="18" y="72">Wayfair</text>
+    <text class="role" x="18" y="102">Software Engineer</text>
+  </g>
+  <g class="card" transform="translate(812 204)">
+    <rect width="166" height="118" rx="18" fill="#240b12" stroke="#fb7185" stroke-opacity="0.86"/>
+    <circle class="float" cx="27" cy="28" r="13" fill="#fb7185" filter="url(#glow)"/>
+    <text class="year" x="52" y="31">2025 - PRESENT</text>
+    <text class="company" x="18" y="65">Oracle Cloud</text>
+    <text class="company" x="18" y="86">Infrastructure</text>
+    <text class="role" x="18" y="107">Software Engineer III</text>
+  </g>
+  <g transform="translate(106 334)">
+    <rect width="848" height="4" rx="2" fill="url(#rail)" opacity="0.55">
+      <animate attributeName="opacity" values="0.35;0.85;0.35" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
