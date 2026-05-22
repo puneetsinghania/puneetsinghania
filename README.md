@@ -1,5 +1,5 @@
 <a href="https://www.linkedin.com/in/puneet-singhania">
-  <img width="100%" src="./assets/cinematic-hero.svg" alt="Puneet Singhania cinematic engineering profile" />
+  <img width="100%" src="./assets/cinematic-hero-v2.svg" alt="Puneet Singhania animated cinematic engineering profile" />
 </a>
 
 <p align="center">
@@ -69,12 +69,16 @@
 <summary><b>Contact</b></summary>
 <br />
 
-<img width="100%" src="./assets/contact-console-v1.svg" alt="Animated contact console with email, LinkedIn, GitHub, and location" />
+<img width="100%" src="./assets/contact-console-v2.svg" alt="Animated contact console with profile links below" />
 
 <p align="center">
-  <a href="mailto:puneetsinghania2002@gmail.com"><img src="https://img.shields.io/badge/Gmail-puneetsinghania2002%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://www.linkedin.com/in/puneet-singhania"><img src="https://img.shields.io/badge/LinkedIn-Puneet%20Singhania-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/puneetsinghania"><img src="https://img.shields.io/badge/GitHub-puneetsinghania-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:puneetsinghania2002@gmail.com"><img width="34%" src="./assets/contact-button-gmail-v1.svg" alt="Email Puneet Singhania" /></a>
+  <a href="https://www.linkedin.com/in/puneet-singhania"><img width="31%" src="./assets/contact-button-linkedin-v1.svg" alt="Puneet Singhania LinkedIn profile" /></a>
+  <a href="https://github.com/puneetsinghania"><img width="28%" src="./assets/contact-button-github-v1.svg" alt="Puneet Singhania GitHub profile" /></a>
+</p>
+
+<p align="center">
+  <img width="24%" src="./assets/contact-button-location-v1.svg" alt="San Francisco Bay Area" />
 </p>
 
 </details>
