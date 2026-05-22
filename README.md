@@ -2,12 +2,6 @@
   <img width="100%" src="./assets/cinematic-hero.svg" alt="Puneet Singhania cinematic engineering profile" />
 </a>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/puneet-singhania"><img src="https://img.shields.io/badge/LinkedIn-Puneet%20Singhania-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:puneetsinghania2002@gmail.com"><img src="https://img.shields.io/badge/Email-puneetsinghania2002%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/San%20Francisco%20Bay%20Area-020617?style=for-the-badge&logo=googlemaps&logoColor=white" alt="San Francisco Bay Area" />
-</p>
-
 <details open>
 <summary><b>Career Scene</b></summary>
 <br />
@@ -25,10 +19,10 @@
 </details>
 
 <details open>
-<summary><b>Control Deck</b></summary>
+<summary><b>Engineering Control Deck</b></summary>
 <br />
 
-<img width="100%" src="./assets/control-deck.svg" alt="Interactive profile control deck" />
+<img width="100%" src="./assets/control-deck.svg" alt="Engineering control deck" />
 
 </details>
 
@@ -61,20 +55,17 @@
 
 </details>
 
-<details>
-<summary><b>Education and Focus Areas</b></summary>
+<details open>
+<summary><b>Education</b></summary>
 <br />
 
-<table>
-<tr>
-<td width="50%" align="center">
-  <img width="96%" src="https://img.shields.io/badge/UC%20Riverside-MS%20Computer%20Science-003DA5?style=for-the-badge" alt="University of California Riverside" />
-</td>
-<td width="50%" align="center">
-  <img width="96%" src="https://img.shields.io/badge/NIE-BE%20Information%20Science-0F172A?style=for-the-badge" alt="The National Institute of Engineering" />
-</td>
-</tr>
-</table>
+<img width="100%" src="./assets/education-section.svg" alt="Education section" />
+
+</details>
+
+<details open>
+<summary><b>Focus Areas</b></summary>
+<br />
 
 <p align="center">
   <img src="https://img.shields.io/badge/Distributed%20Workflow%20Orchestration-020617?style=for-the-badge" alt="Distributed workflow orchestration" />
@@ -86,7 +77,16 @@
 
 </details>
 
+<details open>
+<summary><b>Contact</b></summary>
+<br />
+
+<img width="100%" src="./assets/contact-section.svg" alt="Contact section" />
+
 <p align="center">
   <a href="https://www.linkedin.com/in/puneet-singhania"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
   <a href="mailto:puneetsinghania2002@gmail.com"><img src="https://img.shields.io/badge/Start%20a%20conversation-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/puneetsinghania"><img src="https://img.shields.io/badge/GitHub-puneetsinghania-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
+
+</details>
