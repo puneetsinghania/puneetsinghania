@@ -1,125 +1,137 @@
-<div align="center" width="50">
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0F172A,45:2563EB,100:14B8A6&text=Puneet%20Singhania&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=Backend%20%7C%20Platform%20%7C%20Distributed%20Systems&descAlignY=58&descSize=18" alt="Puneet Singhania profile header" />
+</p>
 
-<img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/puneetsinghania" alt="Puneet"  width="60%"/><br> 
-  
-<p><strong>Highly skilled software engineer with a Master of Science in Computer Science from the University of California, Riverside
+<p align="center">
+  <a href="https://github.com/puneetsinghania"><img src="https://komarev.com/ghpvc/?username=puneetsinghania&style=for-the-badge&color=2563eb&label=Profile+Views" alt="Profile views" /></a>
+  <a href="https://www.linkedin.com/in/puneet-singhania"><img src="https://img.shields.io/badge/LinkedIn-Puneet%20Singhania-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:puneetsinghania2002@gmail.com"><img src="https://img.shields.io/badge/Email-puneetsinghania2002%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-<br>
+<br />
 
+<table>
+<tr>
+<td width="62%" valign="top">
 
-![Totals Hits](https://komarev.com/ghpvc/?username=puneetsinghania&style=flat&color=orange&label=PROFILE+VIEWS)
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fpuneetsinghania&count_bg=%2379C83D&title_bg=%23555555&icon=mediafire.svg&icon_color=%23E7E7E7&title=HITS&edge_flat=false)
-<br>
-</div>
+## Hi, I am Puneet
 
-<hr></hr>
+I am a software engineer focused on backend systems, cloud infrastructure, distributed workflows, and high-scale product platforms. I like building services that stay reliable under pressure, make complex systems easier to operate, and turn messy product problems into clean engineering surfaces.
 
-![tools_I_use](https://img.shields.io/badge/-%F0%9F%9A%80%20Tools%20I%20use-orange)
-![semicolon](https://img.shields.io/badge/-%3A-orange)
+- Software Engineer III at **Oracle Cloud Infrastructure**
+- Master of Science in Computer Science from **University of California, Riverside**
+- Based in the **San Francisco Bay Area**
+- Strongest in **Java, Spring Boot, distributed systems, cloud infrastructure, microservices, Kafka, Redis, SQL, Docker, and Kubernetes**
+- Interested in **platform engineering, orchestration systems, system design, AI-enabled developer tooling, and scalable backend architecture**
+
+</td>
+<td width="38%" valign="top">
+
+<img src="https://github-readme-stats.vercel.app/api?username=puneetsinghania&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Puneet's GitHub stats" />
+
+<br />
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=puneetsinghania&theme=tokyonight&hide_border=true" alt="Puneet's GitHub streak" />
+
+</td>
+</tr>
+</table>
+
+---
+
+## Companies I have built for
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Oracle%20Cloud%20Infrastructure-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud Infrastructure" />
+  <img src="https://img.shields.io/badge/Wayfair-7B2CBF?style=for-the-badge&logo=wayfair&logoColor=white" alt="Wayfair" />
+  <img src="https://img.shields.io/badge/Jio%20Platforms-0A2885?style=for-the-badge&logo=relianceindustrieslimited&logoColor=white" alt="Jio Platforms" />
+  <img src="https://img.shields.io/badge/Motorola%20Solutions-E1140A?style=for-the-badge&logo=motorola&logoColor=white" alt="Motorola Solutions" />
+  <img src="https://img.shields.io/badge/Manhattan%20Associates-111827?style=for-the-badge" alt="Manhattan Associates" />
+</p>
+
+<p align="center">
+  <b>Oracle Cloud Infrastructure</b> -> <b>Wayfair</b> -> <b>Jio Platforms</b> -> <b>Motorola Solutions</b> -> <b>Manhattan Associates</b>
+</p>
+
+---
+
+## Engineering toolkit
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### Languages
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F.svg?style=for-the-badge&logo=Spring-Boot&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20.svg?style=for-the-badge&logo=Apache-Kafka&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=azure-devops&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26.svg?style=for-the-badge&logo=GitLab&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?style=for-the-badge&logo=Postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D.svg?style=for-the-badge&logo=Swagger&logoColor=black)
-![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
-![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36.svg?style=for-the-badge&logo=Apache-Maven&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=flat&logo=python&logoColor=darkgreen)
-![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
-![Json](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)
-![JWT](https://img.shields.io/badge/JSON%20Web%20Tokens-000000.svg?style=for-the-badge&logo=JSON-Web-Tokens&logoColor=white)
-![Html](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![Css](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=flat&logo=GNU%20Bash&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)
-![GNU/Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=white)
-![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?&style=flat&logo=sublime-text&logoColor=important)
-![Firebase](https://img.shields.io/badge/firebase-ffca28?style=flat&logo=firebase&logoColor=black)
-![Sqlite](https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white)
-![JUnit](https://img.shields.io/badge/JUnit5-25A162.svg?style=for-the-badge&logo=JUnit5&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939.svg?style=for-the-badge&logo=Jenkins&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000.svg?style=for-the-badge&logo=Oracle&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=MySQL&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D.svg?style=for-the-badge&logo=Redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?style=for-the-badge&logo=Kubernetes&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600.svg?style=for-the-badge&logo=RabbitMQ&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C.svg?style=for-the-badge&logo=Hibernate&logoColor=white)
-![Eclipse IDE](https://img.shields.io/badge/Eclipse%20IDE-2C2255.svg?style=for-the-badge&logo=Eclipse-IDE&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?style=for-the-badge&logo=IntelliJ-IDEA&logoColor=white)
-![BitBucket](https://img.shields.io/badge/Bitbucket-0052CC.svg?style=for-the-badge&logo=Bitbucket&logoColor=white)
-![Nginx](https://img.shields.io/badge/NGINX-009639.svg?style=for-the-badge&logo=NGINX&logoColor=white)
-![JMeter](https://img.shields.io/badge/Apache%20JMeter-D22128.svg?style=for-the-badge&logo=Apache-JMeter&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC.svg?style=for-the-badge&logo=Jira&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F.svg?style=for-the-badge&logo=Spring-Security&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
-![WireShark](https://img.shields.io/badge/Wireshark-1679A7.svg?style=for-the-badge&logo=Wireshark&logoColor=white)
-![Ant](https://img.shields.io/badge/Apache%20Ant-A81C7D.svg?style=for-the-badge&logo=Apache-Ant&logoColor=white)
-![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75.svg?style=for-the-badge&logo=Apache-Tomcat&logoColor=black)
-![Drupal](https://img.shields.io/badge/Drupal-0678BE.svg?style=for-the-badge&logo=Drupal&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
-![Google Collab](https://img.shields.io/badge/Google%20Colab-F9AB00.svg?style=for-the-badge&logo=Google-Colab&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800.svg?style=for-the-badge&logo=Grafana&logoColor=white)
-![JFrog](https://img.shields.io/badge/JFrog-40BE46.svg?style=for-the-badge&logo=JFrog&logoColor=white)
-![Mailchimp](https://img.shields.io/badge/MailChimp-FFE01B.svg?style=for-the-badge&logo=MailChimp&logoColor=black)
-![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4.svg?style=for-the-badge&logo=Microsoft-Azure&logoColor=white)
-![OpenJDK](https://img.shields.io/badge/OpenJDK-000000.svg?style=for-the-badge&logo=OpenJDK&logoColor=white)
-![Overleaf](https://img.shields.io/badge/Overleaf-47A141.svg?style=for-the-badge&logo=Overleaf&logoColor=white)
-![Powershell](https://img.shields.io/badge/PowerShell-5391FE.svg?style=for-the-badge&logo=PowerShell&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikitlearn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD.svg?style=for-the-badge&logo=SonarQube&logoColor=white)
-![SourceTree](https://img.shields.io/badge/Sourcetree-0052CC.svg?style=for-the-badge&logo=Sourcetree&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
-```dart
-// tools_I_use
+### Backend and platforms
 
-class About extends Me { 
-  const myTools = {  
-    "ProgrammingLanguages" : { "Java", "SQL", "Python", "Javascript", "C++" },
-    "OtherLanguages" : { "HTML", "CSS", "Bash", "Json", "Markdown" },
-    "Databases" : { "Oracle", "MySQL", "PostgreSQL", "Redis", "Firebase", "Sqlite" },
-    "Editors" : { "VScode", "Sublime" },
-    "Platforms" : { "Mac", "GNU/Linux", "Windows" },
-    "Technologies/Frameworks" : {"Data Structures", "Algorithms", "OOP", "REST", "Spring Boot", "Kafka", "Microservices", "Git", "Gradle", "Maven", "JPA", "JUnit", "TestNG", "Linux", "Jenkins", "Drupal", "ArcGIS", "ArcGIS Storymaps", "MailChimp"},
-    "Developer Tools" : { "Azure DevOps", "GitHub", "Postman", "Swagger", "MySql Workbench", "Visual Studio Code", "IntelliJ", "Eclipse"}
-  };
-}
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-0F172A?style=for-the-badge)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-2563EB?style=for-the-badge)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+
+</td>
+<td valign="top" width="50%">
+
+### Cloud, data, and DevOps
+
+![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Oracle SQL](https://img.shields.io/badge/Oracle%20SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+## What I care about
+
+```text
+reliable systems        > flashy systems
+clear APIs              > clever APIs
+observable workflows    > silent failures
+simple ownership        > scattered context
+shipping with quality   > shipping with luck
 ```
 
--  <img alt="GIF" src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/Developer.gif" width="25" /> &nbsp; I’m currently learning **AI & Machine Learning**. <img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png" alt="Penguin" width="15%" /><br>
-- <img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/message.gif?raw=true" width="25" />&nbsp;&nbsp; Ask me about **Software Development, System Design, Scalability, Movies, or anything**. <br>
-- <img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/letterbox.gif?raw=true" width="25" /> &nbsp; Find me on LinkedIn: **[Puneet](https://www.linkedin.com/in/puneet-singhania)**<br>
-- &nbsp;&nbsp;<img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/lightning.gif?raw=true" width="12" />&nbsp;&nbsp;&nbsp;&nbsp;Keep Learning.<br>
-- &nbsp;&nbsp; ![Manh](https://img.shields.io/badge/Manh-blue.svg?style=for-the-badge&logo=&logoColor) ![Motorola](https://img.shields.io/badge/Motorola-E1140A.svg?style=for-the-badge&logo=Motorola&logoColor=white) ![Jio](https://img.shields.io/badge/Jio-blue.svg?style=for-the-badge&logo=Reliance%20industries%20limited&logoColor) <br>
+I enjoy taking systems from "it works" to "it is understandable, operable, scalable, and boring in production." Most of my work sits around backend platforms, workflow orchestration, product infrastructure, and services that need to handle real traffic with clean failure modes.
 
-<div align="center" >
-<a  href="https://github.com/puneetsinghania">
+---
 
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=puneetsinghania&theme=chartreuse_dark" width="32.5%">
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=puneetsinghania&theme=chartreuse_dark" width="32.5%">
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=puneetsinghania&theme=chartreuse_dark" width="32.5%">
-<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=puneetsinghania&theme=chartreuse_dark&utcOffset=8" width="32.5%">
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=puneetsinghania&theme=chartreuse_dark" >
+## GitHub snapshot
 
-</a>
-  
-<hr></hr>
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=puneetsinghania&theme=tokyonight" alt="Repositories per language" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=puneetsinghania&theme=tokyonight" alt="Most committed language" />
+</p>
 
-**Code Cycle**<br>
+<p align="center">
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=puneetsinghania&theme=tokyonight" alt="GitHub profile details" />
+</p>
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Spiral%20Eyes.png" width="10%" alt="Broken system!"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Relieved%20Face.png" width="10%" alt="It's working!"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Astonished%20Face.png" width="10%" alt="It's working but you don't know how!"/><br>
+---
 
+## Connect
 
-<!--img src="https://github.com/puneetsinghania/puneetsinghania/blob/main/images/this_page_is.gif?raw=true"  width="40%"/-->
+<p align="center">
+  <a href="https://www.linkedin.com/in/puneet-singhania"><img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:puneetsinghania2002@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/puneetsinghania"><img src="https://img.shields.io/badge/GitHub-puneetsinghania-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:14B8A6,55:2563EB,100:0F172A" alt="Footer" />
+</p>
