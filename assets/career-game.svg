@@ -1,54 +1,56 @@
 <svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="ocean" x1="0" y1="0" x2="1280" y2="640"><stop stop-color="#E0F7FA"/><stop offset="0.42" stop-color="#DBEAFE"/><stop offset="0.75" stop-color="#CCFBF1"/><stop offset="1" stop-color="#A7F3D0"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1280" y2="640"><stop stop-color="#E0F7FA"/><stop offset="0.42" stop-color="#DBEAFE"/><stop offset="0.75" stop-color="#CCFBF1"/><stop offset="1" stop-color="#A7F3D0"/></linearGradient>
     <linearGradient id="water" x1="0" y1="400" x2="1280" y2="620"><stop stop-color="#0EA5E9"/><stop offset="0.52" stop-color="#14B8A6"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
-    <linearGradient id="path" x1="100" y1="330" x2="1180" y2="330"><stop stop-color="#64748B"/><stop offset="0.25" stop-color="#E1140A"/><stop offset="0.5" stop-color="#0A2885"/><stop offset="0.75" stop-color="#7B2CBF"/><stop offset="1" stop-color="#F80000"/></linearGradient>
-    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.16"/></filter>
-    <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feBlend in="SourceGraphic" in2="b" mode="screen"/></filter>
+    <linearGradient id="glass" x1="70" y1="70" x2="1210" y2="570"><stop stop-color="#FFFFFF" stop-opacity="0.92"/><stop offset="1" stop-color="#F8FAFC" stop-opacity="0.82"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.16"/></filter>
+    <filter id="blueGlow"><feGaussianBlur stdDeviation="5" result="b"/><feBlend in="SourceGraphic" in2="b" mode="screen"/></filter>
     <style>
-      .title{font:900 42px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}.sub{font:750 16px Inter,Segoe UI,Arial,sans-serif;fill:#475569}.level{font:950 13px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF;letter-spacing:1px}.company{font:900 21px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}.role{font:800 13px Inter,Segoe UI,Arial,sans-serif;fill:#334155}.year{font:900 12px Inter,Segoe UI,Arial,sans-serif;fill:#64748B;letter-spacing:1.2px}.xp{font:900 11px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF}.micro{font:850 11px Inter,Segoe UI,Arial,sans-serif;fill:#475569;letter-spacing:1.4px}
-      @keyframes dash{to{stroke-dashoffset:-240}}@keyframes bob{0%,100%{opacity:.55}50%{opacity:1}}.dash{stroke-dasharray:14 14;animation:dash 5s linear infinite}.bob{animation:bob 2.5s ease-in-out infinite}
+      .title{font:900 42px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}.sub{font:750 16px Inter,Segoe UI,Arial,sans-serif;fill:#475569}.brand{font:950 16px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF;letter-spacing:.8px}.company{font:900 20px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}.role{font:800 12px Inter,Segoe UI,Arial,sans-serif;fill:#334155}.year{font:900 11px Inter,Segoe UI,Arial,sans-serif;fill:#64748B;letter-spacing:1.1px}.xp{font:900 11px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF}.micro{font:850 11px Inter,Segoe UI,Arial,sans-serif;fill:#475569;letter-spacing:1.4px}
+      @keyframes dash{to{stroke-dashoffset:-240}}@keyframes pulse{0%,100%{opacity:.52}50%{opacity:1}}.dash{stroke-dasharray:14 14;animation:dash 5s linear infinite}.pulse{animation:pulse 2.5s ease-in-out infinite}
     </style>
   </defs>
-  <rect width="1280" height="640" rx="38" fill="url(#ocean)"/>
+  <rect width="1280" height="640" rx="38" fill="url(#sea)"/>
   <path d="M0 476C164 398 278 466 430 390C596 308 728 294 880 360C1036 428 1152 362 1280 306V640H0V476Z" fill="url(#water)" opacity="0.18"/>
   <path class="dash" d="M40 488C188 418 296 468 438 400C596 324 742 334 894 392C1038 448 1146 388 1240 342" stroke="url(#water)" stroke-width="4" stroke-linecap="round" opacity="0.65"/>
-  <rect x="54" y="54" width="1172" height="522" rx="36" fill="#FFFFFF" opacity="0.78" stroke="#BAE6FD" stroke-width="2" filter="url(#shadow)"/>
-  <text class="title" x="86" y="112">Career Quest</text>
-  <text class="sub" x="86" y="142">Leveling up through enterprise platforms, communications, commerce scale, and cloud infrastructure</text>
-  <path class="dash" d="M162 342H1118" stroke="url(#path)" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
+  <rect x="54" y="54" width="1172" height="522" rx="36" fill="url(#glass)" stroke="#BAE6FD" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="82" y="80" width="1116" height="38" rx="19" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <circle cx="112" cy="99" r="6" fill="#F87171"/><circle cx="134" cy="99" r="6" fill="#FBBF24"/><circle cx="156" cy="99" r="6" fill="#34D399"/>
+  <text class="micro" x="188" y="103">career-growth.game</text>
+  <text class="title" x="86" y="160">Career Growth Game</text>
+  <text class="sub" x="86" y="190">Clean progression cards with glowing company tiles and no external logo dependencies</text>
+  <path class="dash" d="M178 350H1102" stroke="#38BDF8" stroke-width="5" stroke-linecap="round" opacity="0.62" filter="url(#blueGlow)"/>
 
   <g filter="url(#shadow)">
-    <rect x="82" y="198" width="208" height="278" rx="28" fill="#FFFFFF" stroke="#CBD5E1"/>
-    <rect x="108" y="222" width="156" height="78" rx="22" fill="#475569"/>
-    <text class="level" x="128" y="251">LEVEL 01</text><text class="level" x="128" y="276">MANHATTAN</text>
-    <text class="year" x="108" y="332">2015 - 2019</text><text class="company" x="108" y="368">Manhattan</text><text class="company" x="108" y="394">Associates</text><text class="role" x="108" y="424">Associate SWE -> SWE</text>
-    <rect x="108" y="444" width="118" height="22" rx="11" fill="#475569"/><text class="xp" x="130" y="460">platform xp</text>
+    <rect x="86" y="230" width="204" height="260" rx="28" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <rect x="110" y="254" width="156" height="72" rx="20" fill="#475569" filter="url(#blueGlow)"/>
+    <text class="brand" x="128" y="284">MANHATTAN</text><text class="brand" x="128" y="306">ASSOCIATES</text>
+    <text class="year" x="110" y="358">2015 - 2019</text><text class="company" x="110" y="394">Manhattan</text><text class="company" x="110" y="420">Associates</text><text class="role" x="110" y="448">Associate SWE -> SWE</text>
   </g>
   <g filter="url(#shadow)">
-    <rect x="312" y="198" width="208" height="278" rx="28" fill="#FFFFFF" stroke="#FCA5A5"/>
-    <image x="338" y="222" width="156" height="78" href="https://img.shields.io/badge/Motorola%20Solutions-E1140A?style=for-the-badge&amp;logo=motorola&amp;logoColor=white" preserveAspectRatio="xMidYMid meet"/>
-    <text class="year" x="338" y="332">2019</text><text class="company" x="338" y="368">Motorola</text><text class="company" x="338" y="394">Solutions</text><text class="role" x="338" y="424">Software Engineer</text>
-    <rect x="338" y="444" width="126" height="22" rx="11" fill="#E1140A"/><text class="xp" x="360" y="460">systems xp</text>
+    <rect x="314" y="230" width="204" height="260" rx="28" fill="#FFFFFF" stroke="#FCA5A5"/>
+    <rect x="338" y="254" width="156" height="72" rx="20" fill="#E1140A" filter="url(#blueGlow)"/>
+    <text class="brand" x="356" y="284">MOTOROLA</text><text class="brand" x="356" y="306">SOLUTIONS</text>
+    <text class="year" x="338" y="358">2019</text><text class="company" x="338" y="394">Motorola</text><text class="company" x="338" y="420">Solutions</text><text class="role" x="338" y="448">Software Engineer</text>
   </g>
   <g filter="url(#shadow)">
-    <rect x="542" y="198" width="208" height="278" rx="28" fill="#FFFFFF" stroke="#93C5FD"/>
-    <image x="568" y="222" width="156" height="78" href="https://img.shields.io/badge/Jio%20Platforms-0A2885?style=for-the-badge&amp;logo=relianceindustrieslimited&amp;logoColor=white" preserveAspectRatio="xMidYMid meet"/>
-    <text class="year" x="568" y="332">2020 - 2022</text><text class="company" x="568" y="372">Jio Platforms</text><text class="role" x="568" y="404">Software Engineer III</text>
-    <rect x="568" y="424" width="126" height="22" rx="11" fill="#0A2885"/><text class="xp" x="588" y="440">scale xp</text>
+    <rect x="542" y="230" width="204" height="260" rx="28" fill="#FFFFFF" stroke="#93C5FD"/>
+    <rect x="566" y="254" width="156" height="72" rx="20" fill="#0A2885" filter="url(#blueGlow)"/>
+    <text class="brand" x="596" y="284">JIO</text><text class="brand" x="596" y="306">PLATFORMS</text>
+    <text class="year" x="566" y="358">2020 - 2022</text><text class="company" x="566" y="398">Jio Platforms</text><text class="role" x="566" y="430">Software Engineer III</text><rect x="566" y="448" width="106" height="22" rx="11" fill="#0A2885"/><text class="xp" x="584" y="464">scale xp</text>
   </g>
   <g filter="url(#shadow)">
-    <rect x="772" y="198" width="208" height="278" rx="28" fill="#FFFFFF" stroke="#C4B5FD"/>
-    <image x="798" y="222" width="156" height="78" href="https://img.shields.io/badge/Wayfair-7B2CBF?style=for-the-badge&amp;logo=wayfair&amp;logoColor=white" preserveAspectRatio="xMidYMid meet"/>
-    <text class="year" x="798" y="332">2024 - 2025</text><text class="company" x="798" y="372">Wayfair</text><text class="role" x="798" y="404">Software Engineer</text>
-    <rect x="798" y="424" width="142" height="22" rx="11" fill="#7B2CBF"/><text class="xp" x="820" y="440">commerce xp</text>
+    <rect x="770" y="230" width="204" height="260" rx="28" fill="#FFFFFF" stroke="#C4B5FD"/>
+    <rect x="794" y="254" width="156" height="72" rx="20" fill="#7B2CBF" filter="url(#blueGlow)"/>
+    <text class="brand" x="822" y="296">WAYFAIR</text>
+    <text class="year" x="794" y="358">2024 - 2025</text><text class="company" x="794" y="398">Wayfair</text><text class="role" x="794" y="430">Software Engineer</text><rect x="794" y="448" width="130" height="22" rx="11" fill="#7B2CBF"/><text class="xp" x="816" y="464">commerce xp</text>
   </g>
   <g filter="url(#shadow)">
-    <rect x="1002" y="178" width="224" height="318" rx="30" fill="#FFFFFF" stroke="#FDBA74"/>
-    <image x="1028" y="202" width="172" height="86" href="https://img.shields.io/badge/Oracle%20SQL-F80000?style=for-the-badge&amp;logo=oracle&amp;logoColor=white" preserveAspectRatio="xMidYMid meet"/>
-    <text class="year" x="1028" y="322">2025 - PRESENT</text><text class="company" x="1028" y="362">Oracle Cloud</text><text class="company" x="1028" y="390">Infrastructure</text><text class="role" x="1028" y="424">Software Engineer III</text>
-    <rect x="1028" y="446" width="136" height="24" rx="12" fill="#F80000"/><text class="xp" x="1050" y="463">cloud boss</text>
+    <rect x="998" y="214" width="222" height="292" rx="30" fill="#FFFFFF" stroke="#FDBA74"/>
+    <rect x="1024" y="238" width="170" height="80" rx="22" fill="#F80000" filter="url(#blueGlow)"/>
+    <text class="brand" x="1054" y="286">ORACLE</text>
+    <text class="year" x="1024" y="352">2025 - PRESENT</text><text class="company" x="1024" y="392">Oracle Cloud</text><text class="company" x="1024" y="418">Infrastructure</text><text class="role" x="1024" y="448">Software Engineer III</text><rect x="1024" y="466" width="118" height="22" rx="11" fill="#F80000"/><text class="xp" x="1044" y="482">cloud xp</text>
   </g>
-  <circle class="bob" cx="302" cy="342" r="9" fill="#475569"/><circle class="bob" cx="532" cy="342" r="9" fill="#E1140A"/><circle class="bob" cx="762" cy="342" r="9" fill="#0A2885"/><circle class="bob" cx="992" cy="342" r="9" fill="#7B2CBF"/>
-  <text class="micro" x="86" y="544">CAREER GAME BOARD / LOGO CARDS / XP UNLOCKS / CURRENT CLOUD INFRASTRUCTURE LEVEL</text>
+  <circle class="pulse" cx="302" cy="350" r="8" fill="#475569"/><circle class="pulse" cx="530" cy="350" r="8" fill="#E1140A"/><circle class="pulse" cx="758" cy="350" r="8" fill="#0A2885"/><circle class="pulse" cx="986" cy="350" r="8" fill="#7B2CBF"/>
+  <text class="micro" x="86" y="548">MACBOOK CAREER BOARD / GLOWING COMPANY TILES / NO BROKEN LOGOS / CLEAN CARD LAYOUT</text>
 </svg>
