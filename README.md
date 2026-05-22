@@ -1,5 +1,5 @@
 <a href="https://www.linkedin.com/in/puneet-singhania">
-  <img width="100%" src="./assets/cinematic-hero-v2.svg" alt="Puneet Singhania animated cinematic engineering profile" />
+  <img width="100%" src="./assets/cinematic-hero-v3.svg" alt="Puneet Singhania animated tech console engineering profile" />
 </a>
 
 <p align="center">
@@ -10,7 +10,7 @@
 <summary><b>Career Progression</b></summary>
 <br />
 
-<img width="100%" src="./assets/career-dashboard-v1.svg" alt="Dashboard-style career progression from Manhattan Associates to Oracle Cloud Infrastructure" />
+<img width="100%" src="./assets/career-dashboard-nobg-v1.svg" alt="Dashboard-style career progression from Manhattan Associates to Oracle Cloud Infrastructure" />
 
 </details>
 
@@ -18,7 +18,7 @@
 <summary><b>Engineering Dashboard</b></summary>
 <br />
 
-<img width="100%" src="./assets/engineering-dashboard-animated-v1.svg" alt="Animated MacBook-style engineering dashboard for backend systems, cloud infrastructure, data, and reliability" />
+<img width="100%" src="./assets/engineering-dashboard-nobg-v1.svg" alt="Animated MacBook-style engineering dashboard for backend systems, cloud infrastructure, data, and reliability" />
 
 </details>
 
@@ -47,7 +47,7 @@
 <summary><b>Education</b></summary>
 <br />
 
-<img width="100%" src="./assets/education-animated-v1.svg" alt="Animated academic education section with UC Riverside and National Institute of Engineering" />
+<img width="100%" src="./assets/education-nobg-v1.svg" alt="Animated academic education section with UC Riverside and National Institute of Engineering" />
 
 </details>
 
@@ -69,7 +69,7 @@
 <summary><b>Contact</b></summary>
 <br />
 
-<img width="100%" src="./assets/contact-console-v2.svg" alt="Animated contact console with profile links below" />
+<img width="100%" src="./assets/contact-console-nobg-v1.svg" alt="Animated contact console with profile links below" />
 
 <p align="center">
   <a href="mailto:puneetsinghania2002@gmail.com"><img width="34%" src="./assets/contact-button-gmail-v1.svg" alt="Email Puneet Singhania" /></a>
