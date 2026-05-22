@@ -1,15 +1,42 @@
-<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="460" viewBox="0 0 1280 460" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320"><stop stop-color="#020617"/><stop offset="0.52" stop-color="#0F172A"/><stop offset="1" stop-color="#042F2E"/></linearGradient>
-    <linearGradient id="edge" x1="80" y1="60" x2="1200" y2="280"><stop stop-color="#38BDF8"/><stop offset="0.5" stop-color="#14B8A6"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
-    <style>.title{font:900 34px Inter,Segoe UI,Arial,sans-serif;fill:#F8FAFC}.sub{font:750 15px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8}.card{font:900 22px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF}.body{font:780 14px Inter,Segoe UI,Arial,sans-serif;fill:#BAE6FD}.micro{font:850 11px Inter,Segoe UI,Arial,sans-serif;fill:#94A3B8;letter-spacing:1.5px}@keyframes dash{to{stroke-dashoffset:-180}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}.dash{stroke-dasharray:12 14;animation:dash 5s linear infinite}.pulse{animation:pulse 2.6s ease-in-out infinite}</style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="460"><stop stop-color="#F8FAFC"/><stop offset="0.48" stop-color="#E0F2FE"/><stop offset="1" stop-color="#CCFBF1"/></linearGradient>
+    <linearGradient id="edge" x1="80" y1="70" x2="1200" y2="390"><stop stop-color="#2563EB"/><stop offset="0.50" stop-color="#14B8A6"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.14"/></filter>
+    <style>.title{font:900 40px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}.sub{font:750 16px Inter,Segoe UI,Arial,sans-serif;fill:#475569}.name{font:900 26px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}.label{font:850 11px Inter,Segoe UI,Arial,sans-serif;fill:#64748B;letter-spacing:1.5px}.value{font:850 16px Inter,Segoe UI,Arial,sans-serif;fill:#334155}.icon{font:900 18px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF}.micro{font:850 11px Inter,Segoe UI,Arial,sans-serif;fill:#64748B;letter-spacing:1.5px}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}.pulse{animation:pulse 2.6s ease-in-out infinite}</style>
   </defs>
-  <rect width="1280" height="320" rx="34" fill="url(#bg)"/>
-  <rect x="54" y="54" width="1172" height="212" rx="30" fill="#020617" opacity="0.62" stroke="url(#edge)" stroke-width="2"/>
-  <text class="title" x="86" y="104">Contact</text><text class="sub" x="86" y="132">Best places to reach me</text>
-  <path class="dash" d="M294 194H986" stroke="url(#edge)" stroke-width="4" stroke-linecap="round"/>
-  <g><rect x="90" y="166" width="320" height="72" rx="22" fill="#0F172A" stroke="#0A66C2"/><circle class="pulse" cx="126" cy="202" r="10" fill="#0A66C2"/><text class="card" x="154" y="198">LinkedIn</text><text class="body" x="154" y="220">linkedin.com/in/puneet-singhania</text></g>
-  <g><rect x="480" y="166" width="320" height="72" rx="22" fill="#0F172A" stroke="#EA4335"/><circle class="pulse" cx="516" cy="202" r="10" fill="#EA4335"/><text class="card" x="544" y="198">Email</text><text class="body" x="544" y="220">puneetsinghania2002@gmail.com</text></g>
-  <g><rect x="870" y="166" width="320" height="72" rx="22" fill="#0F172A" stroke="#22C55E"/><circle class="pulse" cx="906" cy="202" r="10" fill="#22C55E"/><text class="card" x="934" y="198">GitHub</text><text class="body" x="934" y="220">github.com/puneetsinghania</text></g>
-  <text class="micro" x="86" y="292">OPEN TO BACKEND, PLATFORM, INFRASTRUCTURE, AND SYSTEM DESIGN CONVERSATIONS</text>
+  <rect width="1280" height="460" rx="34" fill="url(#bg)"/>
+  <rect x="54" y="54" width="1172" height="352" rx="34" fill="#FFFFFF" opacity="0.78" stroke="#BAE6FD" stroke-width="2" filter="url(#shadow)"/>
+  <text class="title" x="86" y="108">Phonebook</text><text class="sub" x="86" y="138">Quick ways to get in touch</text>
+
+  <g filter="url(#shadow)">
+    <rect x="86" y="176" width="350" height="168" rx="28" fill="#FFFFFF" stroke="#DBEAFE"/>
+    <circle class="pulse" cx="136" cy="230" r="34" fill="#2563EB"/><text class="icon" x="126" y="237">PS</text>
+    <text class="name" x="190" y="224">Puneet Singhania</text>
+    <text class="label" x="190" y="252">LOCATION</text><text class="value" x="190" y="278">San Francisco Bay Area</text>
+    <text class="label" x="190" y="310">ROLE</text><text class="value" x="190" y="336">Software Engineer III</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="470" y="176" width="332" height="76" rx="22" fill="#FFFFFF" stroke="#EA4335"/>
+    <circle cx="510" cy="214" r="18" fill="#EA4335"/><text class="icon" x="503" y="221">@</text>
+    <text class="label" x="548" y="204">EMAIL</text><text class="value" x="548" y="230">puneetsinghania2002@gmail.com</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="470" y="268" width="332" height="76" rx="22" fill="#FFFFFF" stroke="#22C55E"/>
+    <circle cx="510" cy="306" r="18" fill="#22C55E"/><text class="icon" x="504" y="313">#</text>
+    <text class="label" x="548" y="296">PHONE</text><text class="value" x="548" y="322">929-877-3879</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="836" y="176" width="358" height="76" rx="22" fill="#FFFFFF" stroke="#0A66C2"/>
+    <circle cx="876" cy="214" r="18" fill="#0A66C2"/><text class="icon" x="870" y="221">in</text>
+    <text class="label" x="914" y="204">LINKEDIN</text><text class="value" x="914" y="230">linkedin.com/in/puneet-singhania</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="836" y="268" width="358" height="76" rx="22" fill="#FFFFFF" stroke="#111827"/>
+    <circle cx="876" cy="306" r="18" fill="#111827"/><text class="icon" x="868" y="313">GH</text>
+    <text class="label" x="914" y="296">GITHUB</text><text class="value" x="914" y="322">github.com/puneetsinghania</text>
+  </g>
+  <text class="micro" x="86" y="428">OPEN TO BACKEND, PLATFORM, INFRASTRUCTURE, AND SYSTEM DESIGN CONVERSATIONS</text>
 </svg>
