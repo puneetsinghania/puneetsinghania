@@ -3,18 +3,26 @@
 </a>
 
 <details open>
-<summary><b>Career Scene</b></summary>
+<summary><b>Career Progression</b></summary>
 <br />
 
-<img width="100%" src="./assets/career-theater.svg" alt="Cinematic career progression from Manhattan Associates to Oracle Cloud Infrastructure" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Manhattan%20Associates-475569?style=for-the-badge" alt="Manhattan Associates" />
+  <img src="https://img.shields.io/badge/Motorola%20Solutions-E1140A?style=for-the-badge&logo=motorola&logoColor=white" alt="Motorola Solutions" />
+  <img src="https://img.shields.io/badge/Jio%20Platforms-0A2885?style=for-the-badge&logo=relianceindustrieslimited&logoColor=white" alt="Jio Platforms" />
+  <img src="https://img.shields.io/badge/Wayfair-7B2CBF?style=for-the-badge&logo=wayfair&logoColor=white" alt="Wayfair" />
+  <img src="https://img.shields.io/badge/Oracle%20SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle SQL" />
+</p>
+
+<img width="100%" src="./assets/career-board.svg" alt="Premium career progression board from Manhattan Associates to Oracle Cloud Infrastructure" />
 
 </details>
 
 <details open>
-<summary><b>Systems Scene</b></summary>
+<summary><b>Systems Blueprint</b></summary>
 <br />
 
-<img width="100%" src="./assets/systems-theater.svg" alt="Cinematic systems architecture scene" />
+<img width="100%" src="./assets/systems-theater.svg" alt="Premium systems blueprint" />
 
 </details>
 
@@ -35,23 +43,15 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-020617?style=for-the-badge&logo=openjdk&logoColor=F97316" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-020617?style=for-the-badge&logo=springboot&logoColor=22C55E" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Kafka-020617?style=for-the-badge&logo=apachekafka&logoColor=FFFFFF" alt="Kafka" />
-  <img src="https://img.shields.io/badge/Redis-020617?style=for-the-badge&logo=redis&logoColor=EF4444" alt="Redis" />
-  <img src="https://img.shields.io/badge/Docker-020617?style=for-the-badge&logo=docker&logoColor=38BDF8" alt="Docker" />
-  <img src="https://img.shields.io/badge/Kubernetes-020617?style=for-the-badge&logo=kubernetes&logoColor=60A5FA" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Oracle%20Cloud-020617?style=for-the-badge&logo=oracle&logoColor=F97316" alt="Oracle Cloud" />
-  <img src="https://img.shields.io/badge/Grafana-020617?style=for-the-badge&logo=grafana&logoColor=F97316" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Java-F8FAFC?style=for-the-badge&logo=openjdk&logoColor=F97316" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-F8FAFC?style=for-the-badge&logo=springboot&logoColor=22C55E" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Kafka-F8FAFC?style=for-the-badge&logo=apachekafka&logoColor=111827" alt="Kafka" />
+  <img src="https://img.shields.io/badge/Redis-F8FAFC?style=for-the-badge&logo=redis&logoColor=EF4444" alt="Redis" />
+  <img src="https://img.shields.io/badge/Docker-F8FAFC?style=for-the-badge&logo=docker&logoColor=0EA5E9" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-F8FAFC?style=for-the-badge&logo=kubernetes&logoColor=2563EB" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Oracle%20SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle SQL" />
+  <img src="https://img.shields.io/badge/Grafana-F8FAFC?style=for-the-badge&logo=grafana&logoColor=F97316" alt="Grafana" />
 </p>
-
-</details>
-
-<details>
-<summary><b>Engineering Principles</b></summary>
-<br />
-
-<img width="100%" src="./assets/principles-panel.svg" alt="Animated engineering principles console" />
 
 </details>
 
@@ -59,7 +59,7 @@
 <summary><b>Education</b></summary>
 <br />
 
-<img width="100%" src="./assets/education-section.svg" alt="Education section" />
+<img width="100%" src="./assets/education-section.svg" alt="Premium academic education section" />
 
 </details>
 
@@ -68,25 +68,11 @@
 <br />
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Distributed%20Workflow%20Orchestration-020617?style=for-the-badge" alt="Distributed workflow orchestration" />
-  <img src="https://img.shields.io/badge/Backend%20Architecture-0F766E?style=for-the-badge" alt="Backend architecture" />
-  <img src="https://img.shields.io/badge/Platform%20Engineering-1D4ED8?style=for-the-badge" alt="Platform engineering" />
-  <img src="https://img.shields.io/badge/Observability%20%2B%20Reliability-7C3AED?style=for-the-badge" alt="Observability and reliability" />
-  <img src="https://img.shields.io/badge/High%20Traffic%20Systems-EA580C?style=for-the-badge" alt="High traffic systems" />
-</p>
-
-</details>
-
-<details open>
-<summary><b>Contact</b></summary>
-<br />
-
-<img width="100%" src="./assets/contact-section.svg" alt="Contact section" />
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/puneet-singhania"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
-  <a href="mailto:puneetsinghania2002@gmail.com"><img src="https://img.shields.io/badge/Start%20a%20conversation-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/puneetsinghania"><img src="https://img.shields.io/badge/GitHub-puneetsinghania-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <img src="https://img.shields.io/badge/Distributed%20Workflow%20Orchestration-DBEAFE?style=for-the-badge&labelColor=2563EB&color=DBEAFE" alt="Distributed workflow orchestration" />
+  <img src="https://img.shields.io/badge/Backend%20Architecture-CCFBF1?style=for-the-badge&labelColor=0F766E&color=CCFBF1" alt="Backend architecture" />
+  <img src="https://img.shields.io/badge/Platform%20Engineering-EDE9FE?style=for-the-badge&labelColor=7C3AED&color=EDE9FE" alt="Platform engineering" />
+  <img src="https://img.shields.io/badge/Observability%20%2B%20Reliability-FFEDD5?style=for-the-badge&labelColor=F97316&color=FFEDD5" alt="Observability and reliability" />
+  <img src="https://img.shields.io/badge/High%20Traffic%20Systems-FEE2E2?style=for-the-badge&labelColor=DC2626&color=FEE2E2" alt="High traffic systems" />
 </p>
 
 </details>
