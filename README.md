@@ -10,7 +10,7 @@
 <summary><b>Career Growth Game</b></summary>
 <br />
 
-<img width="100%" src="./assets/career-game.svg" alt="Career growth game board with company logos" />
+<img width="100%" src="./assets/career-game.svg" alt="Career growth game board with glowing company tiles" />
 
 </details>
 
