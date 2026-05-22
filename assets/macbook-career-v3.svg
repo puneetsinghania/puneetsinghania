@@ -1,0 +1,96 @@
+<svg width="1060" height="430" viewBox="0 0 1060 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Puneet Singhania career progression</title>
+  <desc id="desc">A clean MacBook-style career journey from Manhattan Associates to Oracle Cloud Infrastructure.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#041226"/>
+      <stop offset="0.52" stop-color="#061b36"/>
+      <stop offset="1" stop-color="#082f49"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#081a2f"/>
+      <stop offset="1" stop-color="#052033"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.22"/>
+      <stop offset="0.45" stop-color="#38bdf8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="careerLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="0.27" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#a78bfa"/>
+      <stop offset="0.78" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#f43f5e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .small{font:700 12px Arial, Helvetica, sans-serif;letter-spacing:1.5px;fill:#93c5fd}.label{font:900 18px Arial, Helvetica, sans-serif;fill:#f8fafc}.role{font:700 12px Arial, Helvetica, sans-serif;fill:#bfdbfe}.year{font:800 11px Arial, Helvetica, sans-serif;letter-spacing:1.3px;fill:#67e8f9}.chip{font:900 10px Arial, Helvetica, sans-serif;letter-spacing:1.2px;fill:#0f172a}.title{font:900 34px Arial, Helvetica, sans-serif;fill:#f8fafc}.sub{font:700 13px Arial, Helvetica, sans-serif;fill:#bae6fd}.tile{transition:transform .25s ease, opacity .25s ease}.tile:hover{transform:translateY(-6px)}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}.ping{animation:pulse 2.2s ease-in-out infinite}.ping2{animation:pulse 2.2s ease-in-out .45s infinite}.ping3{animation:pulse 2.2s ease-in-out .9s infinite}
+    </style>
+  </defs>
+  <rect width="1060" height="430" rx="32" fill="#dff8ff"/>
+  <path d="M0 324 C160 260 298 334 454 276 C620 214 768 306 1060 224 L1060 430 L0 430 Z" fill="url(#water)"/>
+  <g filter="url(#shadow)">
+    <rect x="52" y="48" width="956" height="330" rx="28" fill="url(#bg)"/>
+    <rect x="76" y="76" width="908" height="254" rx="22" fill="url(#screen)" stroke="#38bdf8" stroke-opacity="0.36"/>
+    <circle cx="530" cy="62" r="4" fill="#bae6fd" opacity="0.75"/>
+    <rect x="386" y="386" width="288" height="16" rx="8" fill="#0f172a" opacity="0.34"/>
+    <rect x="338" y="398" width="384" height="8" rx="4" fill="#38bdf8" opacity="0.18"/>
+  </g>
+  <g transform="translate(104 105)">
+    <text class="small" x="0" y="0">CAREER MODE</text>
+    <text class="title" x="0" y="42">Level Select</text>
+    <text class="sub" x="0" y="68">Enterprise platforms -> communications -> consumer scale -> commerce -> cloud infrastructure</text>
+  </g>
+  <path d="M132 266 C264 202 334 242 450 190 C592 126 700 214 864 140" fill="none" stroke="url(#careerLine)" stroke-width="8" stroke-linecap="round" opacity="0.88"/>
+  <path d="M132 266 C264 202 334 242 450 190 C592 126 700 214 864 140" fill="none" stroke="#e0f2fe" stroke-width="2" stroke-linecap="round" opacity="0.38" stroke-dasharray="9 18"/>
+  <g class="tile" transform="translate(88 218)">
+    <rect width="174" height="94" rx="18" fill="#0f172a" stroke="#60a5fa" stroke-opacity="0.82"/>
+    <circle class="ping" cx="44" cy="24" r="15" fill="#60a5fa" filter="url(#glow)"/>
+    <text class="year" x="76" y="25">2015 - 2019</text>
+    <text class="label" x="20" y="56">Manhattan</text>
+    <text class="role" x="20" y="76">Associate SWE -> SWE</text>
+    <rect x="20" y="104" width="122" height="20" rx="10" fill="#60a5fa"/><text class="chip" x="39" y="118">PLATFORM XP</text>
+  </g>
+  <g class="tile" transform="translate(266 184)">
+    <rect width="162" height="102" rx="18" fill="#111827" stroke="#ef4444" stroke-opacity="0.82"/>
+    <circle class="ping2" cx="38" cy="24" r="15" fill="#ef4444" filter="url(#glow)"/>
+    <text class="year" x="70" y="25">2019</text>
+    <text class="label" x="20" y="60">Motorola</text>
+    <text class="label" x="20" y="82">Solutions</text>
+    <text class="role" x="20" y="104">Software Engineer</text>
+  </g>
+  <g class="tile" transform="translate(448 134)">
+    <rect width="158" height="106" rx="18" fill="#0b1f3a" stroke="#3b82f6" stroke-opacity="0.86"/>
+    <circle class="ping3" cx="38" cy="24" r="15" fill="#3b82f6" filter="url(#glow)"/>
+    <text class="year" x="70" y="25">2020 - 2022</text>
+    <text class="label" x="20" y="62">Jio Platforms</text>
+    <text class="role" x="20" y="88">Software Engineer III</text>
+  </g>
+  <g class="tile" transform="translate(636 178)">
+    <rect width="150" height="100" rx="18" fill="#1e1b4b" stroke="#a855f7" stroke-opacity="0.86"/>
+    <circle class="ping2" cx="38" cy="24" r="15" fill="#a855f7" filter="url(#glow)"/>
+    <text class="year" x="70" y="25">2024 - 2025</text>
+    <text class="label" x="20" y="62">Wayfair</text>
+    <text class="role" x="20" y="88">Software Engineer</text>
+  </g>
+  <g class="tile" transform="translate(806 90)">
+    <rect width="170" height="126" rx="20" fill="#230b11" stroke="#fb7185" stroke-opacity="0.92"/>
+    <circle class="ping" cx="38" cy="28" r="17" fill="#ef4444" filter="url(#glow)"/>
+    <text class="year" x="70" y="28">2025 - PRESENT</text>
+    <text class="label" x="20" y="68">Oracle Cloud</text>
+    <text class="label" x="20" y="92">Infrastructure</text>
+    <text class="role" x="20" y="116">Software Engineer III</text>
+  </g>
+  <g transform="translate(104 348)">
+    <rect width="312" height="24" rx="12" fill="#e0f2fe" opacity="0.92"/>
+    <text class="chip" x="18" y="16">SELF-CONTAINED SVG - NO BROKEN LOGO LINKS</text>
+  </g>
+</svg>
