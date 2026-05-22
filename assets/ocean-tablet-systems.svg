@@ -1,0 +1,23 @@
+<svg width="1280" height="620" viewBox="0 0 1280 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="1280" y2="620"><stop stop-color="#E0F7FA"/><stop offset="0.5" stop-color="#DBEAFE"/><stop offset="1" stop-color="#CCFBF1"/></linearGradient>
+    <linearGradient id="wave" x1="0" y1="380" x2="1280" y2="610"><stop stop-color="#0EA5E9"/><stop offset="0.55" stop-color="#14B8A6"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+    <linearGradient id="edge" x1="80" y1="80" x2="1200" y2="540"><stop stop-color="#2563EB"/><stop offset="0.45" stop-color="#0EA5E9"/><stop offset="1" stop-color="#14B8A6"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.16"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feBlend in="SourceGraphic" in2="b" mode="screen"/></filter>
+    <style>.title{font:900 40px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}.sub{font:750 16px Inter,Segoe UI,Arial,sans-serif;fill:#475569}.node{font:900 20px Inter,Segoe UI,Arial,sans-serif;fill:#0F172A}.body{font:750 13px Inter,Segoe UI,Arial,sans-serif;fill:#334155}.chip{font:850 12px Inter,Segoe UI,Arial,sans-serif;fill:#FFFFFF}.micro{font:850 11px Inter,Segoe UI,Arial,sans-serif;fill:#64748B;letter-spacing:1.4px}@keyframes dash{to{stroke-dashoffset:-220}}@keyframes pulse{0%,100%{opacity:.32}50%{opacity:1}}.dash{stroke-dasharray:12 16;animation:dash 5s linear infinite}.pulse{animation:pulse 2.6s ease-in-out infinite}</style>
+  </defs>
+  <rect width="1280" height="620" rx="38" fill="url(#sea)"/>
+  <path d="M0 462C168 390 286 456 444 380C612 300 734 312 884 372C1038 434 1148 370 1280 308V620H0V462Z" fill="url(#wave)" opacity="0.16"/>
+  <path class="dash" d="M48 488C190 424 306 466 452 400C612 330 754 338 902 394C1044 448 1148 392 1236 346" stroke="url(#wave)" stroke-width="4" stroke-linecap="round" opacity="0.68"/>
+  <rect x="54" y="54" width="1172" height="512" rx="40" fill="#FFFFFF" opacity="0.8" stroke="#BAE6FD" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="86" y="86" width="1108" height="448" rx="30" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text class="title" x="118" y="138">Systems Tablet</text><text class="sub" x="118" y="168">Backend, orchestration, runtime, data, and observability as one operating surface</text>
+  <path class="dash" d="M640 338L258 258M640 338L1022 258M640 338L258 444M640 338L1022 444" stroke="url(#edge)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+  <g filter="url(#shadow)"><rect x="520" y="242" width="240" height="170" rx="30" fill="#FFFFFF" stroke="#0EA5E9"/><circle class="pulse" cx="640" cy="306" r="44" fill="#0EA5E9" opacity="0.15"/><text class="node" x="578" y="306">Platform Core</text><text class="body" x="562" y="338">reliability / scale / clarity</text><rect x="572" y="360" width="136" height="26" rx="13" fill="#0F766E"/><text class="chip" x="598" y="378">production calm</text></g>
+  <g filter="url(#shadow)"><rect x="116" y="212" width="284" height="118" rx="24" fill="#FFFFFF" stroke="#2563EB"/><text class="node" x="144" y="258">Backend APIs</text><text class="body" x="144" y="286">Java, Spring Boot, REST contracts</text></g>
+  <g filter="url(#shadow)"><rect x="880" y="212" width="284" height="118" rx="24" fill="#FFFFFF" stroke="#14B8A6"/><text class="node" x="908" y="258">Workflow Engine</text><text class="body" x="908" y="286">Kafka, retries, async orchestration</text></g>
+  <g filter="url(#shadow)"><rect x="116" y="398" width="284" height="118" rx="24" fill="#FFFFFF" stroke="#22C55E"/><text class="node" x="144" y="444">Cloud Runtime</text><text class="body" x="144" y="472">OCI, Docker, Kubernetes, Linux</text></g>
+  <g filter="url(#shadow)"><rect x="880" y="398" width="284" height="118" rx="24" fill="#FFFFFF" stroke="#7C3AED"/><text class="node" x="908" y="444">Data Plane</text><text class="body" x="908" y="472">Redis, SQL, throughput, latency</text></g>
+  <text class="micro" x="118" y="548">OCEAN TABLET / SYSTEMS MAP / INTERACTIVE README MODULE</text>
+</svg>
